@@ -1,0 +1,11 @@
+F:\Calderon.Gilberto\Ejercicio_03\bin\Debug\netcoreapp2.1\Ejercicio_03.deps.json
+F:\Calderon.Gilberto\Ejercicio_03\bin\Debug\netcoreapp2.1\Ejercicio_03.runtimeconfig.json
+F:\Calderon.Gilberto\Ejercicio_03\bin\Debug\netcoreapp2.1\Ejercicio_03.runtimeconfig.dev.json
+F:\Calderon.Gilberto\Ejercicio_03\bin\Debug\netcoreapp2.1\Ejercicio_03.dll
+F:\Calderon.Gilberto\Ejercicio_03\bin\Debug\netcoreapp2.1\Ejercicio_03.pdb
+F:\Calderon.Gilberto\Ejercicio_03\obj\Debug\netcoreapp2.1\Ejercicio_03.csprojAssemblyReference.cache
+F:\Calderon.Gilberto\Ejercicio_03\obj\Debug\netcoreapp2.1\Ejercicio_03.csproj.CoreCompileInputs.cache
+F:\Calderon.Gilberto\Ejercicio_03\obj\Debug\netcoreapp2.1\Ejercicio_03.AssemblyInfoInputs.cache
+F:\Calderon.Gilberto\Ejercicio_03\obj\Debug\netcoreapp2.1\Ejercicio_03.AssemblyInfo.cs
+F:\Calderon.Gilberto\Ejercicio_03\obj\Debug\netcoreapp2.1\Ejercicio_03.dll
+F:\Calderon.Gilberto\Ejercicio_03\obj\Debug\netcoreapp2.1\Ejercicio_03.pdb
