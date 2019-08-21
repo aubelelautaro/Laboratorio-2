@@ -15,11 +15,13 @@ namespace Ejercicio_04
             Console.WriteLine("*****PROGRAMA PARA HALLAR LOS CUATRO PRIMEROS NUMEROS PERFECTOS*****");
             Console.ReadKey();
 
+           // Program p = new Program();
+
             int count = 0, i;
 
             for (i = 0; i < 20; i++)
             {
-                if (esPerfecto(i + 1) == true || count != 5)
+                if (EsPerfecto(i + 1) == true || count != 5)
                 {
                     Console.WriteLine((i + 1));
 
@@ -30,7 +32,7 @@ namespace Ejercicio_04
 
         }
 
-        static bool esPerfecto(int x)
+        static bool EsPerfecto(int x)
         {
             int i, sum = 0;
 

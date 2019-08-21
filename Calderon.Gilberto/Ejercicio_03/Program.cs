@@ -19,7 +19,7 @@ namespace Ejercicio_03
 
             for (i = 0; i < num; i++)
             {
-                if (esPrimo(i + 1) == true)
+                if (EsPrimo(i + 1) == true)
                 {
                     Console.WriteLine((i + 1)); // Sin los parentesis es igual
                 }
@@ -29,7 +29,7 @@ namespace Ejercicio_03
             Console.ReadKey();
         }
 
-        static bool esPrimo(int x)
+        static bool EsPrimo(int x)
         {
             if (x <= 1)
             {

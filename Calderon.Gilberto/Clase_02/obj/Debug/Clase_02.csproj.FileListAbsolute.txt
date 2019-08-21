@@ -10,3 +10,15 @@ E:\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.csproj.CoreCompil
 E:\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.csproj.CopyComplete
 E:\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.exe
 E:\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.pdb
+C:\Users\Home\Desktop\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\Clase_02.exe.config
+C:\Users\Home\Desktop\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\Clase_02.exe
+C:\Users\Home\Desktop\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\Clase_02.pdb
+C:\Users\Home\Desktop\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\Clase02.entidades.dll
+C:\Users\Home\Desktop\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\MiLibreria.dll
+C:\Users\Home\Desktop\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\Clase02.entidades.pdb
+C:\Users\Home\Desktop\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\MiLibreria.pdb
+C:\Users\Home\Desktop\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.csprojAssemblyReference.cache
+C:\Users\Home\Desktop\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.csproj.CopyComplete
+C:\Users\Home\Desktop\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.exe
+C:\Users\Home\Desktop\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.pdb
