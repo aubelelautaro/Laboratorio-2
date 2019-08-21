@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{99773ABC-4DAF-4DA4-9A22-E62431948962}</ProjectGuid>
+    <ProjectGuid>{537AA22F-5E24-4C7F-B5DF-192384108D15}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Ejercicio_01</RootNamespace>
     <AssemblyName>Ejercicio_01</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
