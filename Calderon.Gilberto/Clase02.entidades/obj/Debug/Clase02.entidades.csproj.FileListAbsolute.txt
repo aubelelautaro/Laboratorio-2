@@ -1,0 +1,6 @@
+E:\Laboratorio-2\Calderon.Gilberto\Clase02.entidades\bin\Debug\Clase02.entidades.dll
+E:\Laboratorio-2\Calderon.Gilberto\Clase02.entidades\bin\Debug\Clase02.entidades.pdb
+E:\Laboratorio-2\Calderon.Gilberto\Clase02.entidades\obj\Debug\Clase02.entidades.csprojAssemblyReference.cache
+E:\Laboratorio-2\Calderon.Gilberto\Clase02.entidades\obj\Debug\Clase02.entidades.csproj.CoreCompileInputs.cache
+E:\Laboratorio-2\Calderon.Gilberto\Clase02.entidades\obj\Debug\Clase02.entidades.dll
+E:\Laboratorio-2\Calderon.Gilberto\Clase02.entidades\obj\Debug\Clase02.entidades.pdb

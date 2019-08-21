@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Clase02.Entidades;
 
 namespace Clase_02
 {
@@ -21,6 +22,24 @@ namespace Clase_02
 
             MiLibreria.MiClase.nombre = "Gilberto";
             Console.WriteLine(MiLibreria.MiClase.MostrarNombre());
+
+            // Console.Clear();
+
+            Sello.mensaje = "Hola Mundo"; // Clase02.Entidades
+            string mensaje = Sello.Imprimir();
+
+            Sello.mensaje = "Hola";
+            Sello.color = ConsoleColor.Red;
+            Sello.ImprimirEnColor();
+
+            Console.Write("Escriba lo que sea: ");
+            Sello.mensaje = Console.ReadLine();
+            //    Sello.ImprimirEnColor();
+            Console.Clear();
+            Sello.Imprimir();
+
+
+            
 
             Console.ReadKey();
         }

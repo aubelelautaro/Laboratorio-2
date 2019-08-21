@@ -1,0 +1,12 @@
+E:\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\Clase_02.exe.config
+E:\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\Clase_02.exe
+E:\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\Clase_02.pdb
+E:\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\Clase02.entidades.dll
+E:\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\MiLibreria.dll
+E:\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\Clase02.entidades.pdb
+E:\Laboratorio-2\Calderon.Gilberto\Clase_02\bin\Debug\MiLibreria.pdb
+E:\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.csprojAssemblyReference.cache
+E:\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.csproj.CoreCompileInputs.cache
+E:\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.csproj.CopyComplete
+E:\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.exe
+E:\Laboratorio-2\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.pdb
