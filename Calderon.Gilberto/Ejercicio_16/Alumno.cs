@@ -8,19 +8,21 @@ namespace Ejercicio_16
 {
     class Alumno
     {
+        #region atributos
         private byte nota1;
         private byte nota2;
         public string nombre;
         public string apellido;
         public float notaFinal;
-        public int dni;
+        public int legajo;
+        #endregion
 
-       
-        public Alumno(string nombre, string apellido, int legajo, int dni)
+
+        public Alumno(string nombre, string apellido, int legajo)
         {
             this.nombre = nombre;
             this.apellido = apellido;
-            this.dni = dni;
+            this.legajo = legajo;
         }
 
         public void Estudiar(byte nota1, byte nota2)
@@ -46,7 +48,7 @@ namespace Ejercicio_16
         {
             if(this.notaFinal != -1)
             {
-                return $"Nombre->{this.nombre}; Apellido-> {this.apellido}; Dni-> {this.dni}; Alumno Aprobado";
+                return $"Nombre->{this.nombre}; Apellido-> {this.apellido}; Legajo-> {this.legajo}; Alumno Aprobado";
             }
             else
             {
