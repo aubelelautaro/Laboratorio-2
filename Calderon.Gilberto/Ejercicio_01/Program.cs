@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_01
 {
-    class Program
+    class Ejercicio_01
     {
         static void Main(string[] args)
         {
-            /* Console.Title = "Ejercicio_01";
-                Console.WriteLine("Hola Mundo c#");
+                Console.Title = "Ejercicio_01";
+               /* Console.WriteLine("Hola Mundo c#");
 
                 string nombre;
                 string apellido = "Calderon";

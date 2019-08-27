@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Clase02.Entidades;
+using Clase_02.Entidades;
 
 namespace Clase_02
 {
