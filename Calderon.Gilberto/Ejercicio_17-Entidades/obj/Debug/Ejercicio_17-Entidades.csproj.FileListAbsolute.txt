@@ -1,0 +1,6 @@
+F:\Calderon.Gilberto\Ejercicio_17-Entidades\bin\Debug\Ejercicio_17-Entidades.dll
+F:\Calderon.Gilberto\Ejercicio_17-Entidades\bin\Debug\Ejercicio_17-Entidades.pdb
+F:\Calderon.Gilberto\Ejercicio_17-Entidades\obj\Debug\Ejercicio_17-Entidades.csprojAssemblyReference.cache
+F:\Calderon.Gilberto\Ejercicio_17-Entidades\obj\Debug\Ejercicio_17-Entidades.csproj.CoreCompileInputs.cache
+F:\Calderon.Gilberto\Ejercicio_17-Entidades\obj\Debug\Ejercicio_17-Entidades.dll
+F:\Calderon.Gilberto\Ejercicio_17-Entidades\obj\Debug\Ejercicio_17-Entidades.pdb

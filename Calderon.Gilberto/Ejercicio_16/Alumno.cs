@@ -33,7 +33,7 @@ namespace Ejercicio_16
 
         public void CalcularFinal()
         {
-            if(this.nota1 >= 4 && this.nota1 >= 4)
+            if(this.nota1 >= 4 && this.nota2 >= 4)
             {
                 Random nota = new Random();
                 this.notaFinal = nota.Next(1, 10);
