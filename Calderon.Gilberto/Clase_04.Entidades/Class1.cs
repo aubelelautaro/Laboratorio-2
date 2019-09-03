@@ -71,9 +71,9 @@ namespace Clase_04.Entidades
       
         public Cosa(string cadena, DateTime fecha, int entero):this(cadena, fecha)
         {
-         //   this.entero = entero;
+           this.entero = entero;
         //    this.cadena = cadena;
-            this.fecha = fecha;
+         //  this.fecha = fecha;
 
         }
     }

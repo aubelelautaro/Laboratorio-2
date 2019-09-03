@@ -1,0 +1,7 @@
+F:\Calderon.Gilberto\Clase_01\bin\Debug\Clase_1.exe.config
+F:\Calderon.Gilberto\Clase_01\bin\Debug\Clase_1.exe
+F:\Calderon.Gilberto\Clase_01\bin\Debug\Clase_1.pdb
+F:\Calderon.Gilberto\Clase_01\obj\Debug\Clase_01.csprojAssemblyReference.cache
+F:\Calderon.Gilberto\Clase_01\obj\Debug\Clase_01.csproj.CoreCompileInputs.cache
+F:\Calderon.Gilberto\Clase_01\obj\Debug\Clase_1.exe
+F:\Calderon.Gilberto\Clase_01\obj\Debug\Clase_1.pdb

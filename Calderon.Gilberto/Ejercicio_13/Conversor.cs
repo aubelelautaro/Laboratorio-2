@@ -8,29 +8,12 @@ namespace Ejercicio_13
 {
     class Conversor
     {
-
-        /// <summary>
-        /// Método que convierte un número entero en un binario ASCII
-        /// </summary>
-        /// <param name="entero">Número a convertir. EJ: 9</param>
-        /// <returns>Valor binario ASCII resultado de la conversión. EJ: 1001</returns>
-        public static string EnteroBinario(int entero)
+        public static string DecimalBinario(double numero)
         {
-            string binario = "";
-            while (entero > 0)
-            {
-                binario = (entero % 2).ToString() + binario;
-                entero = entero / 2;
-            }
-            return binario;
+            return Convert.ToString((int)numero, 2);
         }
 
-        /// <summary>
-        /// Método que convierte un binario ASCII en un número entero
-        /// </summary>
-        /// <param name="binario">Binario ASCII a convertir. EJ: 1001</param>
-        /// <returns>Valor entero resultado de la conversión. EJ: 9</returns>
-        public static int BinarioEntero(string binario)
+        public static double BinarioDecimal(string binario)
         {
             int entero = 0;
 
@@ -41,17 +24,5 @@ namespace Ejercicio_13
 
             return entero;
         }
-
-        ///// <summary>
-        ///// Invierte una cadena de caracteres.
-        ///// </summary>
-        ///// <param name="str"></param>
-        ///// <returns>Retorna una cadena de caracteres de forma invertida</returns>
-        //private static string ReverseString(string str)
-        //{
-        //    char[] charArray = str.ToCharArray();
-        //    Array.Reverse(charArray);
-        //    return new string(charArray);
-        //}
     }
 }

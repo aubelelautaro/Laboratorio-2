@@ -1,0 +1,10 @@
+F:\Calderon.Gilberto\Ejercicio_02.WindowsForms\bin\Debug\Ejercicio_02.WindowsForms.exe.config
+F:\Calderon.Gilberto\Ejercicio_02.WindowsForms\bin\Debug\Ejercicio_02.WindowsForms.exe
+F:\Calderon.Gilberto\Ejercicio_02.WindowsForms\bin\Debug\Ejercicio_02.WindowsForms.pdb
+F:\Calderon.Gilberto\Ejercicio_02.WindowsForms\obj\Debug\Ejercicio_02.WindowsForms.csprojAssemblyReference.cache
+F:\Calderon.Gilberto\Ejercicio_02.WindowsForms\obj\Debug\Ejercicio_02.WindowsForms.form1.resources
+F:\Calderon.Gilberto\Ejercicio_02.WindowsForms\obj\Debug\Ejercicio_02.WindowsForms.Properties.Resources.resources
+F:\Calderon.Gilberto\Ejercicio_02.WindowsForms\obj\Debug\Ejercicio_02.WindowsForms.csproj.GenerateResource.cache
+F:\Calderon.Gilberto\Ejercicio_02.WindowsForms\obj\Debug\Ejercicio_02.WindowsForms.csproj.CoreCompileInputs.cache
+F:\Calderon.Gilberto\Ejercicio_02.WindowsForms\obj\Debug\Ejercicio_02.WindowsForms.exe
+F:\Calderon.Gilberto\Ejercicio_02.WindowsForms\obj\Debug\Ejercicio_02.WindowsForms.pdb

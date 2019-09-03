@@ -1,0 +1,7 @@
+F:\Calderon.Gilberto\Clase_05_Ejercicio\bin\Debug\Clase_05_Ejercicio.exe.config
+F:\Calderon.Gilberto\Clase_05_Ejercicio\bin\Debug\Clase_05_Ejercicio.exe
+F:\Calderon.Gilberto\Clase_05_Ejercicio\bin\Debug\Clase_05_Ejercicio.pdb
+F:\Calderon.Gilberto\Clase_05_Ejercicio\obj\Debug\Clase_05_Ejercicio.csprojAssemblyReference.cache
+F:\Calderon.Gilberto\Clase_05_Ejercicio\obj\Debug\Clase_05_Ejercicio.csproj.CoreCompileInputs.cache
+F:\Calderon.Gilberto\Clase_05_Ejercicio\obj\Debug\Clase_05_Ejercicio.exe
+F:\Calderon.Gilberto\Clase_05_Ejercicio\obj\Debug\Clase_05_Ejercicio.pdb
