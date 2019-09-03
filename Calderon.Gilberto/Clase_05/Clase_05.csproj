@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11DED976-8A93-4365-98D1-191E5C61F270}</ProjectGuid>
+    <ProjectGuid>{0B2E6898-087C-4279-9497-667900BA9FBC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Clase_05_Ejercicio</RootNamespace>
-    <AssemblyName>Clase_05_Ejercicio</AssemblyName>
+    <RootNamespace>Clase_05</RootNamespace>
+    <AssemblyName>Clase_05</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,14 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CodeFile1.cs" />
-    <Compile Include="Estante.cs" />
-    <Compile Include="Producto.cs" />
-    <Compile Include="TestEstante.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Clase_05.Entidades\Clase_05.Entidades.csproj">
+      <Project>{21f439b0-a378-4835-a986-d1e3ef20fa2f}</Project>
+      <Name>Clase_05.Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
