@@ -96,7 +96,7 @@ namespace Clase_06.Entidades
         {
             for (int i = 0; i < this.colores.Length; i++)
             {
-                if (!Object.Equals(this.colores[i], null))
+                if (Object.Equals(this.colores[i], null))
                 {
                     return i;
                 }
@@ -115,6 +115,22 @@ namespace Clase_06.Entidades
                 }
             }
             return -1;
+        }
+        //*************///
+        public static Paleta operator -(Paleta paleta, Tempera tempera)
+        {
+            if (paleta == tempera)
+            {
+                if (tempera == paleta.colores[paleta | tempera])
+                {
+                    if ((paleta.colores[paleta | tempera] + -1) == null)
+                    {
+                        return paleta;
+                    }
+                }
+            }
+
+            return paleta;
         }
 
     }

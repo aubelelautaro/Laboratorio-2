@@ -4,3 +4,9 @@ E:\Calderon.Gilberto\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.csprojAssem
 E:\Calderon.Gilberto\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.csproj.CoreCompileInputs.cache
 E:\Calderon.Gilberto\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.dll
 E:\Calderon.Gilberto\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.pdb
+F:\Calderon.Gilberto\Clase_06.Entidades\bin\Debug\Clase_06.Entidades.dll
+F:\Calderon.Gilberto\Clase_06.Entidades\bin\Debug\Clase_06.Entidades.pdb
+F:\Calderon.Gilberto\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.csprojAssemblyReference.cache
+F:\Calderon.Gilberto\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.csproj.CoreCompileInputs.cache
+F:\Calderon.Gilberto\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.dll
+F:\Calderon.Gilberto\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.pdb

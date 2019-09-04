@@ -63,13 +63,18 @@ namespace Clase_06.Entidades
         {
             if(!Object.Equals(tempera, null))
             {
-                tempera.cantidad += num;
-                return tempera;
+                if(tempera.cantidad <= 0)
+                {
+                    return null;
+                }
+                else
+                {
+                    tempera.cantidad += num;
+                    return tempera;
+                }
             }
-            else
-            {
-                return tempera;
-            }
+            return tempera;
+            
         }
 
         public static Tempera operator +(Tempera tempera1, Tempera tempera2)
