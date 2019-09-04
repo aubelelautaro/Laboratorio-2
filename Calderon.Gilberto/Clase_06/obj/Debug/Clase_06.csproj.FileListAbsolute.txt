@@ -1,0 +1,10 @@
+E:\Calderon.Gilberto\Clase_06\bin\Debug\Clase_06.exe.config
+E:\Calderon.Gilberto\Clase_06\bin\Debug\Clase_06.exe
+E:\Calderon.Gilberto\Clase_06\bin\Debug\Clase_06.pdb
+E:\Calderon.Gilberto\Clase_06\bin\Debug\Clase_06.Entidades.dll
+E:\Calderon.Gilberto\Clase_06\bin\Debug\Clase_06.Entidades.pdb
+E:\Calderon.Gilberto\Clase_06\obj\Debug\Clase_06.csprojAssemblyReference.cache
+E:\Calderon.Gilberto\Clase_06\obj\Debug\Clase_06.csproj.CoreCompileInputs.cache
+E:\Calderon.Gilberto\Clase_06\obj\Debug\Clase_06.csproj.CopyComplete
+E:\Calderon.Gilberto\Clase_06\obj\Debug\Clase_06.exe
+E:\Calderon.Gilberto\Clase_06\obj\Debug\Clase_06.pdb

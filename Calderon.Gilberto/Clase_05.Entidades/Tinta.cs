@@ -40,14 +40,16 @@ namespace Clase_05.Entidades
         public static bool operator ==(Tinta tinta1, Tinta tinta2)
         { // verificar con object si son nulas, ya que al sobrecargar el operador solo va a comparar sus atributos, no la referencia de ambos objetos en el heap
           
+            if(!Object.Equals(tinta1, null) && !Object.Equals(tinta2, null))
+            {
                 if (tinta1._color == tinta2._color && tinta1._tipo == tinta2._tipo)
                 {
                     return true;
                 }
-                else
-                {
-                    return false;
-                }
+            }
+
+            return false;
+           
         }
 
         public static bool operator !=(Tinta tinta1, Tinta tinta2)
@@ -57,14 +59,15 @@ namespace Clase_05.Entidades
 
         public static bool operator ==(Tinta tinta, ConsoleColor color)
         {
-            if(tinta._color == color)
+            if (!Object.Equals(tinta, null))
             {
-                return true;
+                if (tinta._color == color)
+                {
+                    return true;
+                }
             }
-            else
-            {
-                return false;
-            }
+           
+            return false;
         }
 
         public static bool operator !=(Tinta tinta, ConsoleColor color)
@@ -74,7 +77,10 @@ namespace Clase_05.Entidades
 
         public static explicit operator string(Tinta tinta)
         {
-            return tinta.Mostrar();
+            if (!Object.Equals(tinta, null))
+                return tinta.Mostrar();
+            else
+                return string.Empty;
         }
     }
 }

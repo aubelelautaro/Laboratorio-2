@@ -65,7 +65,7 @@ namespace Clase_05_Ejercicio
             // Muestro todo el estante
             Console.WriteLine();
             Console.WriteLine("<------------------------------------------------->");
-        //    Console.WriteLine(Estante.MostrarEstante(estante));
+            Console.WriteLine(Estante.MostrarEstante(estante));
 
             Console.ReadKey();
 

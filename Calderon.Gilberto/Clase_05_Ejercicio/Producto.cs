@@ -34,90 +34,72 @@ namespace Clase_05_Ejercicio
         public static string MostrarProducto(Producto p)
         {
 
-          //  if(p != null)
-         //   {
-                 return $"Producto:\n--> Marca: {p.marca}\n--> Precio: {p.precio}\n--> Codigo De Barra: {p.codigoDeBarra}\n";
-
-           // }
-          //  return "Vacio";
+            if (!Object.Equals(p, null))
+                return $"Producto:\n--> Marca: {p.marca}\n--> Precio: {p.precio}\n--> Codigo De Barra: {p.codigoDeBarra}\n";
+            else
+                return "No existe";
         }
 
         public static explicit operator string(Producto p)
         {
-            return p.codigoDeBarra;
+            if (!Object.Equals(p, null))
+                return p.codigoDeBarra;
+            else
+                return "Inexistente";
         }
 
-        public override bool Equals(object obj)
-        {
-            if (obj != null)
-            {
-                if (obj is Producto)
-                {
-                    Producto temp = (Producto)obj;
-                    if (temp.precio == this.precio
-                        && temp.marca == this.marca)
-                    {
-                        return true;
-                    }
-                }
-            }
+        //public override bool Equals(object obj)
+        //{
+        //    if (obj != null)
+        //    {
+        //        if (obj is Producto)
+        //        {
+        //            Producto temp = (Producto)obj;
+        //            if (temp.precio == this.precio
+        //                && temp.marca == this.marca)
+        //            {
+        //                return true;
+        //            }
+        //        }
+        //    }
 
-            return false;
-        }
+        //    return false;
+        //}
 
-        public override int GetHashCode()
-        {
-            unchecked
-            {
-                return this.marca.GetHashCode() ^ this.precio.GetHashCode() ^ this.codigoDeBarra.GetHashCode();
-            }
-        }
+        //public override int GetHashCode()
+        //{
+        //    unchecked
+        //    {
+        //        return this.marca.GetHashCode() ^ this.precio.GetHashCode() ^ this.codigoDeBarra.GetHashCode();
+        //    }
+        //}
 
         public static bool operator ==(Producto p1, Producto p2)
-        { 
-            if(p1 is Producto && p2 is Producto)
+        {
+            if (!Object.Equals(p1, null) && !Object.Equals(p2, null))
             {
-                if(p1.marca == p2.marca && p1.codigoDeBarra == p2.codigoDeBarra)
+                if (p1.marca == p2.marca && p1.codigoDeBarra == p2.codigoDeBarra)
                 {
                     return true;
                 }
-                else
-                {
-                    return false;
-                }
 
             }
-
-            return false;
+                return false;
         }
 
         public static bool operator !=(Producto p1, Producto p2)
         {
-            if (p1 is Producto && p2 is Producto)
-            {
-                if (p1.marca != p2.marca && p1.codigoDeBarra != p2.codigoDeBarra)
-                {
-                    return false;
-                }
-                else
-                {
-                    return true;
-                }
-            }
-            return true;
+           
+            return !(p1 == p2);
         }
 
         public static bool operator ==(Producto p, string marca)
         {
-            if (!string.IsNullOrEmpty(marca))
+            if (!string.IsNullOrEmpty(marca) && !Object.Equals(p, null))
             {
                 if(p.marca == marca)
                 {
                     return true;
-                }
-                else
-                {
-                    return false;
                 }
 
             }
@@ -127,20 +109,7 @@ namespace Clase_05_Ejercicio
 
         public static bool operator !=(Producto p, string marca)
         {
-            if (!string.IsNullOrEmpty(marca))
-            {
-                if (p.marca == marca)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
-
-            }
-
-            return false;
+            return !(p == marca);
         }
     }
 }

@@ -8,3 +8,13 @@ E:\Calderon.Gilberto\Clase_05\obj\Debug\Clase_05.csproj.CoreCompileInputs.cache
 E:\Calderon.Gilberto\Clase_05\obj\Debug\Clase_05.csproj.CopyComplete
 E:\Calderon.Gilberto\Clase_05\obj\Debug\Clase_05.exe
 E:\Calderon.Gilberto\Clase_05\obj\Debug\Clase_05.pdb
+F:\Calderon.Gilberto\Clase_05\bin\Debug\Clase_05.exe.config
+F:\Calderon.Gilberto\Clase_05\bin\Debug\Clase_05.exe
+F:\Calderon.Gilberto\Clase_05\bin\Debug\Clase_05.pdb
+F:\Calderon.Gilberto\Clase_05\bin\Debug\Clase_05.Entidades.dll
+F:\Calderon.Gilberto\Clase_05\bin\Debug\Clase_05.Entidades.pdb
+F:\Calderon.Gilberto\Clase_05\obj\Debug\Clase_05.csprojAssemblyReference.cache
+F:\Calderon.Gilberto\Clase_05\obj\Debug\Clase_05.csproj.CoreCompileInputs.cache
+F:\Calderon.Gilberto\Clase_05\obj\Debug\Clase_05.csproj.CopyComplete
+F:\Calderon.Gilberto\Clase_05\obj\Debug\Clase_05.exe
+F:\Calderon.Gilberto\Clase_05\obj\Debug\Clase_05.pdb

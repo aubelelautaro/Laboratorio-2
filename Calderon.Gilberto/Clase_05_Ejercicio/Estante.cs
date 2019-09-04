@@ -25,11 +25,6 @@ namespace Clase_05_Ejercicio
         private Estante(int capacidad)
         {
             this.productos = new Producto[capacidad];
-
-            //for(int i = 0; i < this.productos.Length; i++)
-            //{
-            //    this.productos[i];
-            //}
         }
 
         public Estante(int capacidad, int ubicacion) : this(capacidad)
@@ -64,7 +59,7 @@ namespace Clase_05_Ejercicio
         {
             for(int i = 0; i < e.productos.Length; i++)
             {
-                if (p.Equals(e.productos[i]))
+                if (e.productos[i] == p)
                 {
                     return true;
                 }
@@ -74,35 +69,20 @@ namespace Clase_05_Ejercicio
 
         public static bool operator !=(Estante e, Producto p)
         {
-            for (int i = 0; i < e.productos.Length; i++)
-            {
-                if (p.Equals(e.productos[i]))
-                {
-                    return false;
-                }
-            }
-            return true;
-
-           
+            return !(e ==p);
         }
 
         public static bool operator +(Estante e, Producto p)
-        {
-            if (e == p)
-                return false;
-            else
+        { 
+            for(int i = 0; i < e.productos.Length; i++)
             {
-                for (int i = 0; i<e.productos.Length;i++)
+                if (Object.Equals(e.productos[i], null))
                 {
-                    if (null == e.productos[i])
-                    {
-                        e.productos[i] = p;
-                        return true;
-                    }
-
+                    e.productos[i] = p;
+                    return true;
                 }
-                return false;
             }
+            return false;
         }
             
 
@@ -110,13 +90,16 @@ namespace Clase_05_Ejercicio
         {
             if(e == p)
             {
-                p = null;
-                return e;
+                for(int i = 0; i < e.productos.Length; i++)
+                {
+                    if (e.productos[i] == p)
+                    {
+                        e.productos[i] = null;
+                        return e;
+                    }
+                }
             }
-
-
             return e;
-            
         }
         
     }

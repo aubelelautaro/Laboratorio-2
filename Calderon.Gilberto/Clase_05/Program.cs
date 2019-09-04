@@ -21,6 +21,8 @@ namespace Clase_05
            
             c = c + a;
 
+            Console.WriteLine($"{b}\n\n{c}");
+
             Console.ReadKey(true);
         }
     }

@@ -56,18 +56,19 @@ namespace Clase_05.Entidades
 
         public static Pluma operator +(Pluma pluma, Tinta tinta)
         {
-            if (pluma._cantidad < 100)
+            if(!Object.Equals(pluma, null) && !Object.Equals(tinta, null))
             {
-                if(pluma._tinta == tinta)
+                if (pluma._cantidad < 100)
                 {
-                    pluma._cantidad++;
-                    return pluma;
+                    if(pluma._tinta == tinta)
+                    {
+                        pluma._cantidad++;
+                        return pluma;
+                    }
                 }
             }
 
             return pluma;
         }
-
-
     }
 }
