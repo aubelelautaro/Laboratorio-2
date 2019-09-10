@@ -1,0 +1,10 @@
+F:\Calderon.Gilberto\Ejercicio_20\bin\Debug\Ejercicio_20.exe.config
+F:\Calderon.Gilberto\Ejercicio_20\bin\Debug\Ejercicio_20.exe
+F:\Calderon.Gilberto\Ejercicio_20\bin\Debug\Ejercicio_20.pdb
+F:\Calderon.Gilberto\Ejercicio_20\bin\Debug\Ejercicio_20.Entidades.dll
+F:\Calderon.Gilberto\Ejercicio_20\bin\Debug\Ejercicio_20.Entidades.pdb
+F:\Calderon.Gilberto\Ejercicio_20\obj\Debug\Ejercicio_20.csprojAssemblyReference.cache
+F:\Calderon.Gilberto\Ejercicio_20\obj\Debug\Ejercicio_20.csproj.CoreCompileInputs.cache
+F:\Calderon.Gilberto\Ejercicio_20\obj\Debug\Ejercicio_20.csproj.CopyComplete
+F:\Calderon.Gilberto\Ejercicio_20\obj\Debug\Ejercicio_20.exe
+F:\Calderon.Gilberto\Ejercicio_20\obj\Debug\Ejercicio_20.pdb
