@@ -56,12 +56,12 @@ namespace Clase_06.Entidades
             if (!Object.Equals(paleta, null) && !Object.Equals(tempera, null))
             {
                foreach(Tempera tempe in paleta.colores)
-                {
+               {
                     if(tempe == tempera)
                     {
                         return true;
                     }
-                }
+               }
             }
             return false;
         }
@@ -75,7 +75,11 @@ namespace Clase_06.Entidades
         {
             if (paleta != tempera)
             {
-                paleta.colores[paleta.MostrarLugarLibre()] = tempera;
+                if(paleta.MostrarLugarLibre() != -1)
+                {
+                    paleta.colores[paleta.MostrarLugarLibre()] = tempera;
+                }
+                     
                 return paleta;
             }
             else

@@ -16,32 +16,46 @@ namespace Clase_06.WindowsForms
     {
         Paleta miPaleta;
 
-        
-
         public Form1()
         {
             InitializeComponent();
 
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.groupBox1.Visible = false; 
+            this.WindowState = FormWindowState.Maximized;
+            this.groupBoxPaleta.Visible = false; 
             this.IsMdiContainer = true; // indicar que el formulario principal va a ser contenedor de otros formularios mas
+            this.groupBoxPaleta.Visible = false; 
         }
 
         private void paletaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.miPaleta = 5;
-            this.groupBox1.Visible = true;
+            this.lstPaleta.Items.Clear(); // limpio list box
+            
+            this.miPaleta = 5; // crear una paleta de 5 pinturas
+            this.groupBoxPaleta.Visible = true;
             this.paletaToolStripMenuItem.Enabled = false;
+          //  this.paletaToolStripMenuItem.Visible = true;
+           /* this.temperaToolStripMenuItem.Visible = true;
+            this.temperaToolStripMenuItem.Enabled = true;*/
+           
         }
 
         private void temperaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form frm = new FrmTempera(); // crear un nuevo formulario por cada paleta
-            frm.MdiParent = this; // frm sera parte del formulario principal o contenedor
+            FrmTempera frm = new FrmTempera(); // crear un nuevo formulario por cada paleta
+      //      frm.MdiParent = this; // frm (El formulario de la tempera) sera parte del formulario principal o contenedor
             
-            frm.Show(); // mostrar ese formulario
-            
-           // this.miPaleta += frm.g
+            frm.ShowDialog(); // mostrar ese formulario, no se aplica el frm.MdiParent
+            this.groupBoxPaleta.Visible = true;
+
+            if(frm.DialogResult == DialogResult.OK)
+            {
+                this.miPaleta += frm.MiTempera;
+                lstPaleta.Items.Add((string)frm.MiTempera);
+            }
+           
+
         }
+
+       
     }
 }

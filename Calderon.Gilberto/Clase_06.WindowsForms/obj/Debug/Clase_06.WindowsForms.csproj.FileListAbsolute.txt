@@ -12,3 +12,17 @@ E:\Calderon.Gilberto\Clase_06.WindowsForms\obj\Debug\Clase_06.WindowsForms.cspro
 E:\Calderon.Gilberto\Clase_06.WindowsForms\obj\Debug\Clase_06.WindowsForms.exe
 E:\Calderon.Gilberto\Clase_06.WindowsForms\obj\Debug\Clase_06.WindowsForms.pdb
 E:\Calderon.Gilberto\Clase_06.WindowsForms\obj\Debug\Clase_06.WindowsForms.frmTempera.resources
+F:\Calderon.Gilberto\Clase_06.WindowsForms\bin\Debug\Clase_06.WindowsForms.exe.config
+F:\Calderon.Gilberto\Clase_06.WindowsForms\bin\Debug\Clase_06.WindowsForms.exe
+F:\Calderon.Gilberto\Clase_06.WindowsForms\bin\Debug\Clase_06.WindowsForms.pdb
+F:\Calderon.Gilberto\Clase_06.WindowsForms\bin\Debug\Clase_06.Entidades.dll
+F:\Calderon.Gilberto\Clase_06.WindowsForms\bin\Debug\Clase_06.Entidades.pdb
+F:\Calderon.Gilberto\Clase_06.WindowsForms\obj\Debug\Clase_06.WindowsForms.csprojAssemblyReference.cache
+F:\Calderon.Gilberto\Clase_06.WindowsForms\obj\Debug\Clase_06.WindowsForms.Form1.resources
+F:\Calderon.Gilberto\Clase_06.WindowsForms\obj\Debug\Clase_06.WindowsForms.FrmTempera.resources
+F:\Calderon.Gilberto\Clase_06.WindowsForms\obj\Debug\Clase_06.WindowsForms.Properties.Resources.resources
+F:\Calderon.Gilberto\Clase_06.WindowsForms\obj\Debug\Clase_06.WindowsForms.csproj.GenerateResource.cache
+F:\Calderon.Gilberto\Clase_06.WindowsForms\obj\Debug\Clase_06.WindowsForms.csproj.CoreCompileInputs.cache
+F:\Calderon.Gilberto\Clase_06.WindowsForms\obj\Debug\Clase_06.WindowsForms.csproj.CopyComplete
+F:\Calderon.Gilberto\Clase_06.WindowsForms\obj\Debug\Clase_06.WindowsForms.exe
+F:\Calderon.Gilberto\Clase_06.WindowsForms\obj\Debug\Clase_06.WindowsForms.pdb

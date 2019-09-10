@@ -15,24 +15,32 @@ namespace Clase_06.WindowsForms
     {
         private Tempera tempe;
 
-       // public Tempera MiTempera { get this.tempe; }
-
-        public Tempera GetTempera()
+        /* Propiedades */
+        public Tempera MiTempera
         {
-            return this.tempe;
-        }
+            get
+            {
+                return this.tempe;
+            }
+
+            //set
+            //{
+            //    this.tempe = value;
+            //}
+        }   
 
         public FrmTempera()
         {
             InitializeComponent();
-            this.StartPosition = FormStartPosition.CenterScreen;
+            this.StartPosition = FormStartPosition.CenterScreen; // centrar la pantalla
 
             foreach(ConsoleColor c in Enum.GetValues(typeof(ConsoleColor)))
             {
-                 this.cboColor.Items.Add(c);
+                 this.cboColor.Items.Add(c); // combobox.item.add() es para anadir elementos al combobox
             }
-            this.cboColor.SelectedItem = ConsoleColor.Magenta;
-         // this.cboColor.DropDownStyle = ComboBox.
+
+            this.cboColor.SelectedItem = ConsoleColor.Magenta; // Seleciona que este establecido por defecto
+            this.cboColor.DropDownStyle = ComboBoxStyle.DropDownList; // para evitar la interaccion del usuario con el combobox
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)
@@ -41,7 +49,9 @@ namespace Clase_06.WindowsForms
             if (!String.IsNullOrEmpty(this.txtMarca.Text) && int.TryParse(this.txtCantidad.Text, out cantidad))
             {
                 tempe = new Tempera((ConsoleColor)this.cboColor.SelectedItem, this.txtMarca.Text, cantidad);
-                MessageBox.Show((string)tempe);
+                MessageBox.Show((string)tempe); // muestro el obj tempera creado
+                this.DialogResult = DialogResult.OK;
+                this.Close(); // cerrar la ventana
             }
             else
             {
@@ -51,7 +61,8 @@ namespace Clase_06.WindowsForms
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.DialogResult = DialogResult.Cancel;
+            this.Close();  
         }
     }
 }

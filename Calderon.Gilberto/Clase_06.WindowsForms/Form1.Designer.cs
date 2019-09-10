@@ -32,9 +32,10 @@
             this.administracionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paletaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.temperaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lstPaleta = new System.Windows.Forms.ListBox();
+            this.groupBoxPaleta = new System.Windows.Forms.GroupBox();
             this.menuStrip1.SuspendLayout();
+            this.groupBoxPaleta.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -71,36 +72,37 @@
             this.temperaToolStripMenuItem.Text = "Tempera";
             this.temperaToolStripMenuItem.Click += new System.EventHandler(this.temperaToolStripMenuItem_Click);
             // 
-            // listBox1
+            // lstPaleta
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 160);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(776, 147);
-            this.listBox1.TabIndex = 1;
+            this.lstPaleta.FormattingEnabled = true;
+            this.lstPaleta.Location = new System.Drawing.Point(6, 54);
+            this.lstPaleta.Name = "lstPaleta";
+            this.lstPaleta.Size = new System.Drawing.Size(743, 147);
+            this.lstPaleta.TabIndex = 1;
             // 
-            // groupBox1
+            // groupBoxPaleta
             // 
-            this.groupBox1.Location = new System.Drawing.Point(12, 54);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(676, 85);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBoxPaleta.Controls.Add(this.lstPaleta);
+            this.groupBoxPaleta.Location = new System.Drawing.Point(12, 85);
+            this.groupBoxPaleta.Name = "groupBoxPaleta";
+            this.groupBoxPaleta.Size = new System.Drawing.Size(776, 243);
+            this.groupBoxPaleta.TabIndex = 2;
+            this.groupBoxPaleta.TabStop = false;
+            this.groupBoxPaleta.Text = "Paleta";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.listBox1);
+            this.ClientSize = new System.Drawing.Size(800, 358);
+            this.Controls.Add(this.groupBoxPaleta);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.groupBoxPaleta.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -112,8 +114,8 @@
         private System.Windows.Forms.ToolStripMenuItem administracionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem paletaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem temperaToolStripMenuItem;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ListBox lstPaleta;
+        private System.Windows.Forms.GroupBox groupBoxPaleta;
     }
 }
 
