@@ -123,6 +123,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmTempera";
             this.Text = "frmTempera";
+          
             this.ResumeLayout(false);
             this.PerformLayout();
 

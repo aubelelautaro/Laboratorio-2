@@ -12,6 +12,30 @@ namespace Clase_06.Entidades
         private string marca;
         private int cantidad;
 
+        public string Marca
+        {
+            get
+            {
+                return this.marca;
+            }
+        }
+
+        public int Cantidad
+        {
+            get
+            {
+                return this.cantidad;
+            }
+        }
+
+        public ConsoleColor Color
+        {
+            get
+            {
+                return this.color;
+            }
+        } 
+
         public Tempera(ConsoleColor color, string marca, int cantidad)
         {
             this.cantidad = cantidad;
@@ -25,7 +49,7 @@ namespace Clase_06.Entidades
         /// <returns></returns>
         private string Mostrar()
         {
-            return $"{this.marca} ---- {this.color} ---- {this.cantidad}\n";
+            return string.Format($"Marca: {this.marca}, Color: {this.color}, Cantidad: {this.cantidad}\n");
         }
 
         public static implicit operator string(Tempera tempera)

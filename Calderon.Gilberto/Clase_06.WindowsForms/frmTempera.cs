@@ -43,6 +43,13 @@ namespace Clase_06.WindowsForms
             this.cboColor.DropDownStyle = ComboBoxStyle.DropDownList; // para evitar la interaccion del usuario con el combobox
         }
 
+        public FrmTempera(Tempera tempe):this()
+        {
+            this.txtMarca.Text = tempe.Marca;
+            this.txtCantidad.Text =tempe.Cantidad.ToString();
+            this.cboColor.SelectedItem = tempe.Color;
+        }
+
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             int cantidad;
@@ -64,5 +71,6 @@ namespace Clase_06.WindowsForms
             this.DialogResult = DialogResult.Cancel;
             this.Close();  
         }
+
     }
 }

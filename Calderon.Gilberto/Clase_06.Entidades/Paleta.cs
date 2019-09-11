@@ -11,6 +11,33 @@ namespace Clase_06.Entidades
         private Tempera[] colores;
         private int cantidadMaximaColores;
 
+        //public Tempera[] Colores
+        //{
+        //    get
+        //    {
+        //        return this.colores;
+        //    }
+        //}
+
+        //public Tempera[] GetColores()
+        //{
+        //    return this.colores;
+        //}
+
+            /** INDEXADOR **/
+        public Tempera this[int index]
+        {
+            get
+            {
+                return this.colores[index];
+            }
+
+            set
+            {
+                this.colores[index] = value;
+            }
+        }
+
         private Paleta():this(5)
         {
         }
@@ -41,6 +68,7 @@ namespace Clase_06.Entidades
             foreach(Tempera tempe in this.colores)
             {
                 cadena += tempe;
+                cadena += "\n";
             }
 
             return cadena;
@@ -123,17 +151,15 @@ namespace Clase_06.Entidades
         //*************///
         public static Paleta operator -(Paleta paleta, Tempera tempera)
         {
+            int indice = paleta | tempera;
             if (paleta == tempera)
             {
-                if (tempera == paleta.colores[paleta | tempera])
+                if (paleta.colores[indice] == tempera)
                 {
-                    if ((paleta.colores[paleta | tempera] + -1) == null)
-                    {
-                        return paleta;
-                    }
-                }
+                    tempera = null;
+                    return paleta;
+                }   
             }
-
             return paleta;
         }
 

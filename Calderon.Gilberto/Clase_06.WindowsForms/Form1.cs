@@ -47,15 +47,48 @@ namespace Clase_06.WindowsForms
             frm.ShowDialog(); // mostrar ese formulario, no se aplica el frm.MdiParent
             this.groupBoxPaleta.Visible = true;
 
-            if(frm.DialogResult == DialogResult.OK)
+            if (frm.DialogResult == DialogResult.OK)
             {
                 this.miPaleta += frm.MiTempera;
-                lstPaleta.Items.Add((string)frm.MiTempera);
+                lstPaleta.Items.Add((string)this.miPaleta[this.miPaleta | frm.MiTempera]); // corregir cuando muestra cuando agrega pero no cuando quita
             }
            
-
         }
 
-       
+        private void btnAgregarTempera_Click(object sender, EventArgs e)
+        {
+            this.temperaToolStripMenuItem_Click(sender, e);
+        }
+
+        private void btnQuitarTempera_Click(object sender, EventArgs e)
+        {
+            FrmTempera frm = new FrmTempera();
+            frm.ShowDialog();
+
+            if(frm.DialogResult == DialogResult.OK)
+            {
+                lstPaleta.Items.Add((string)this.miPaleta[this.miPaleta | frm.MiTempera]); 
+                miPaleta -= frm.MiTempera; 
+            }
+            else
+            {
+                MessageBox.Show("No se ha borrado ninguna tempera");
+            }
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            int indice = lstPaleta.SelectedIndex;
+         //   MessageBox.Show(this.miPaleta[indice]);
+            FrmTempera frm = new FrmTempera(this.miPaleta[indice]);
+            frm.ShowDialog();
+
+            if (frm.DialogResult == DialogResult.OK)
+            {
+                lstPaleta.Items.Clear();
+                lstPaleta.Items.Add((string)this.miPaleta[this.miPaleta | frm.MiTempera]);
+                miPaleta[indice] = frm.MiTempera;
+            }
+        }
     }
 }
