@@ -33,26 +33,41 @@ namespace Clase_06.WindowsForms
             this.miPaleta = 5; // crear una paleta de 5 pinturas
             this.groupBoxPaleta.Visible = true;
             this.paletaToolStripMenuItem.Enabled = false;
+            this.DialogResult = DialogResult.Yes;
           //  this.paletaToolStripMenuItem.Visible = true;
            /* this.temperaToolStripMenuItem.Visible = true;
             this.temperaToolStripMenuItem.Enabled = true;*/
+
            
         }
 
         private void temperaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmTempera frm = new FrmTempera(); // crear un nuevo formulario por cada paleta
-      //      frm.MdiParent = this; // frm (El formulario de la tempera) sera parte del formulario principal o contenedor
             
-            frm.ShowDialog(); // mostrar ese formulario, no se aplica el frm.MdiParent
-            this.groupBoxPaleta.Visible = true;
-
-            if (frm.DialogResult == DialogResult.OK)
+            switch (this.DialogResult)
             {
-                this.miPaleta += frm.MiTempera;
-                lstPaleta.Items.Add((string)this.miPaleta[this.miPaleta | frm.MiTempera]); // corregir cuando muestra cuando agrega pero no cuando quita
+                case DialogResult.Yes:
+
+                    FrmTempera frm = new FrmTempera(); // crear un nuevo formulario por cada paleta
+                                                       //      frm.MdiParent = this; // frm (El formulario de la tempera) sera parte del formulario principal o contenedor
+
+                    frm.ShowDialog(); // mostrar ese formulario, no se aplica el frm.MdiParent
+                    this.groupBoxPaleta.Visible = true;
+
+                    if (frm.DialogResult == DialogResult.OK)
+                    {
+                        this.miPaleta += frm.MiTempera;
+                        lstPaleta.Items.Add((string)this.miPaleta[this.miPaleta | frm.MiTempera]); // corregir cuando muestra cuando agrega pero no cuando quita
+                    }
+
+                    break;
+
+                default:
+                    MessageBox.Show("Debe crear una paleta primero", "Error.", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    break;
+
             }
-           
+
         }
 
         private void btnAgregarTempera_Click(object sender, EventArgs e)

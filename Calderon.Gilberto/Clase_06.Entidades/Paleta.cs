@@ -63,12 +63,14 @@ namespace Clase_06.Entidades
 
         private string Mostrar()
         {
+            int indice = 1;
             string cadena = string.Format($"Cantidad Maxima de colores: {this.cantidadMaximaColores}\n\n");
 
             foreach(Tempera tempe in this.colores)
             {
-                cadena += tempe;
+                cadena += string.Format($"{indice}- {(string)tempe}");
                 cadena += "\n";
+                indice++;
             }
 
             return cadena;
@@ -107,21 +109,22 @@ namespace Clase_06.Entidades
                 {
                     paleta.colores[paleta.MostrarLugarLibre()] = tempera;
                 }
-                     
-                return paleta;
+                    
             }
             else
             {
-                for (int i = 0; i < paleta.colores.Length; i++)
+                if(paleta.colores[paleta | tempera].Cantidad <= 0)
                 {
-                    if (paleta.colores[i] == tempera)
-                    {
-                        paleta.colores[i] = paleta.colores[i] + 1;
-                        return paleta;
-                    }
+                    paleta.colores[paleta | tempera] = null;
+
                 }
-                return paleta;
+                else
+                {
+                    paleta.colores[paleta | tempera] += tempera.Cantidad;
+                }
             }
+
+            return paleta;
         }
 
         private int MostrarLugarLibre()
@@ -138,28 +141,36 @@ namespace Clase_06.Entidades
 
         public static int operator |(Paleta paleta, Tempera tempera)
         {
+            Int16 indice = -1;
+
             if(paleta == tempera)
             {
-                for(int i = 0; i < paleta.colores.Length; i++)
+                for(indice = 0; indice < paleta.colores.Length; indice++)
                 {
-                    if (paleta.colores[i] == tempera)
-                        return i;
+                    if (paleta.colores[indice] == tempera)
+                    {
+                        return indice;
+
+                    }
                 }
             }
-            return -1;
+            return indice;
         }
         //*************///
         public static Paleta operator -(Paleta paleta, Tempera tempera)
         {
             int indice = paleta | tempera;
-            if (paleta == tempera)
+            if (tempera.Cantidad > 0)
             {
-                if (paleta.colores[indice] == tempera)
+                if (paleta == tempera)
                 {
-                    tempera = null;
-                    return paleta;
-                }   
+                    paleta.colores[indice] += -1;
+                
+                }
+
             }
+            
+               
             return paleta;
         }
 

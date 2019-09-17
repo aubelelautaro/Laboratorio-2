@@ -107,7 +107,7 @@
             this.btnConvertFahrenheit.Name = "btnConvertFahrenheit";
             this.btnConvertFahrenheit.Size = new System.Drawing.Size(75, 23);
             this.btnConvertFahrenheit.TabIndex = 6;
-            this.btnConvertFahrenheit.Text = "Convertir";
+            this.btnConvertFahrenheit.Text = "->";
             this.btnConvertFahrenheit.UseVisualStyleBackColor = true;
             this.btnConvertFahrenheit.Click += new System.EventHandler(this.BtnConvertFahrenheit_Click);
             // 
@@ -119,7 +119,7 @@
             this.btnConvetCelsius.Name = "btnConvetCelsius";
             this.btnConvetCelsius.Size = new System.Drawing.Size(75, 23);
             this.btnConvetCelsius.TabIndex = 7;
-            this.btnConvetCelsius.Text = "Convertir";
+            this.btnConvetCelsius.Text = "->";
             this.btnConvetCelsius.UseVisualStyleBackColor = true;
             this.btnConvetCelsius.Click += new System.EventHandler(this.BtnConvetCelsius_Click);
             // 
@@ -131,7 +131,7 @@
             this.btnConvertKelvin.Name = "btnConvertKelvin";
             this.btnConvertKelvin.Size = new System.Drawing.Size(75, 23);
             this.btnConvertKelvin.TabIndex = 8;
-            this.btnConvertKelvin.Text = "Convertir";
+            this.btnConvertKelvin.Text = "->";
             this.btnConvertKelvin.UseVisualStyleBackColor = true;
             this.btnConvertKelvin.Click += new System.EventHandler(this.BtnConvertKelvin_Click);
             // 
