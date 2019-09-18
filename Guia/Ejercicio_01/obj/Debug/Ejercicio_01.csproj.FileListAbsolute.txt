@@ -1,0 +1,14 @@
+D:\VisualStudio\Calderon.Gilberto\Ejercicio_01\bin\Debug\Ejercicio_01.exe.config
+D:\VisualStudio\Calderon.Gilberto\Ejercicio_01\bin\Debug\Ejercicio_01.exe
+D:\VisualStudio\Calderon.Gilberto\Ejercicio_01\bin\Debug\Ejercicio_01.pdb
+D:\VisualStudio\Calderon.Gilberto\Ejercicio_01\obj\Debug\Ejercicio_01.csprojAssemblyReference.cache
+D:\VisualStudio\Calderon.Gilberto\Ejercicio_01\obj\Debug\Ejercicio_01.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Calderon.Gilberto\Ejercicio_01\obj\Debug\Ejercicio_01.exe
+D:\VisualStudio\Calderon.Gilberto\Ejercicio_01\obj\Debug\Ejercicio_01.pdb
+C:\Users\Home\Desktop\Guia\Ejercicio_01\bin\Debug\Ejercicio_01.exe.config
+C:\Users\Home\Desktop\Guia\Ejercicio_01\bin\Debug\Ejercicio_01.exe
+C:\Users\Home\Desktop\Guia\Ejercicio_01\bin\Debug\Ejercicio_01.pdb
+C:\Users\Home\Desktop\Guia\Ejercicio_01\obj\Debug\Ejercicio_01.csprojAssemblyReference.cache
+C:\Users\Home\Desktop\Guia\Ejercicio_01\obj\Debug\Ejercicio_01.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\Guia\Ejercicio_01\obj\Debug\Ejercicio_01.exe
+C:\Users\Home\Desktop\Guia\Ejercicio_01\obj\Debug\Ejercicio_01.pdb

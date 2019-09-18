@@ -1,0 +1,14 @@
+F:\Calderon.Gilberto\Ejercicio_13\bin\Debug\Ejercicio_13.exe.config
+F:\Calderon.Gilberto\Ejercicio_13\bin\Debug\Ejercicio_13.exe
+F:\Calderon.Gilberto\Ejercicio_13\bin\Debug\Ejercicio_13.pdb
+F:\Calderon.Gilberto\Ejercicio_13\obj\Debug\Ejercicio_13.csproj.CoreCompileInputs.cache
+F:\Calderon.Gilberto\Ejercicio_13\obj\Debug\Ejercicio_13.exe
+F:\Calderon.Gilberto\Ejercicio_13\obj\Debug\Ejercicio_13.pdb
+F:\Calderon.Gilberto\Ejercicio_13\obj\Debug\Ejercicio_13.csprojAssemblyReference.cache
+E:\Calderon.Gilberto\Ejercicio_13\bin\Debug\Ejercicio_13.exe.config
+E:\Calderon.Gilberto\Ejercicio_13\bin\Debug\Ejercicio_13.exe
+E:\Calderon.Gilberto\Ejercicio_13\bin\Debug\Ejercicio_13.pdb
+E:\Calderon.Gilberto\Ejercicio_13\obj\Debug\Ejercicio_13.csprojAssemblyReference.cache
+E:\Calderon.Gilberto\Ejercicio_13\obj\Debug\Ejercicio_13.csproj.CoreCompileInputs.cache
+E:\Calderon.Gilberto\Ejercicio_13\obj\Debug\Ejercicio_13.exe
+E:\Calderon.Gilberto\Ejercicio_13\obj\Debug\Ejercicio_13.pdb
