@@ -54,15 +54,7 @@ namespace Clase_06.Entidades
 
         public static implicit operator string(Tempera tempera)
         {
-            if(!Object.Equals(tempera, null))
-            {
-                return tempera.Mostrar();
-
-            }
-            else
-            {
-                return "No hay tempera\n\n";
-            }
+            return !Object.Equals(tempera, null) ? tempera.Mostrar() : "No hay tempera";
         }
 
         public static bool operator ==(Tempera tempera, Tempera tempera2)
@@ -103,14 +95,7 @@ namespace Clase_06.Entidades
 
         public static Tempera operator +(Tempera tempera1, Tempera tempera2)
         {
-            if (tempera1 == tempera2)
-            {
-                return (tempera1 + tempera2.cantidad);
-            }
-            else
-            {
-                return tempera1;
-            }
+            return (tempera1 == tempera2) ? tempera1 + tempera2.cantidad : tempera1; /**    */
         }
     }
 }

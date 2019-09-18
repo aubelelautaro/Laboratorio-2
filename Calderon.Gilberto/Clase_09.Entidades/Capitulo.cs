@@ -8,13 +8,29 @@ namespace Clase_09.Entidades
 {
     public class Capitulo
     {
-        #region Atributos
+        #region privados
         private int numero;
         private string titulo;
         private int paginas;
+
+        private Capitulo(int numero, string titulo, int paginas)
+        {
+            this.numero = numero;
+            this.titulo = titulo;
+            this.paginas = paginas;
+        }
+        #endregion
+
+        #region estaticos
         private static Random generadorDeNumeros;
         private static Random generadorDePaginas;
 
+        static Capitulo()
+        {
+            Capitulo.generadorDeNumeros = new Random();
+            Capitulo.generadorDePaginas = new Random();
+
+        }
         #endregion
 
         #region Propiedades
@@ -43,24 +59,7 @@ namespace Clase_09.Entidades
         }
         #endregion
 
-        #region Constructores
-        static Capitulo()
-        {
-            Capitulo.generadorDeNumeros= new Random();
-            Capitulo.generadorDePaginas = new Random();
-
-        }
-
-        private Capitulo(int numero, string titulo, int paginas)
-        {
-            this.numero = numero;
-            this.titulo = titulo;
-            this.paginas = paginas;
-        }
-
-        #endregion
-
-        #region operadores
+        #region Sobrecarga de operadores
         public static implicit operator Capitulo(string cadena)
         {
             return new Capitulo(Capitulo.generadorDeNumeros.Next(1, 16), cadena, Capitulo.generadorDePaginas.Next(15,234));

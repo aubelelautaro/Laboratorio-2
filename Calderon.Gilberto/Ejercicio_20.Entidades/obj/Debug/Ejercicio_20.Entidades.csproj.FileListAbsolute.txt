@@ -1,6 +1,0 @@
-F:\Calderon.Gilberto\Ejercicio_20.Entidades\bin\Debug\Ejercicio_20.Entidades.dll
-F:\Calderon.Gilberto\Ejercicio_20.Entidades\bin\Debug\Ejercicio_20.Entidades.pdb
-F:\Calderon.Gilberto\Ejercicio_20.Entidades\obj\Debug\Ejercicio_20.Entidades.csprojAssemblyReference.cache
-F:\Calderon.Gilberto\Ejercicio_20.Entidades\obj\Debug\Ejercicio_20.Entidades.csproj.CoreCompileInputs.cache
-F:\Calderon.Gilberto\Ejercicio_20.Entidades\obj\Debug\Ejercicio_20.Entidades.dll
-F:\Calderon.Gilberto\Ejercicio_20.Entidades\obj\Debug\Ejercicio_20.Entidades.pdb

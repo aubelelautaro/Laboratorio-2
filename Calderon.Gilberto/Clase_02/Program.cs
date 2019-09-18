@@ -38,6 +38,13 @@ namespace Clase_02
             Console.Clear();
             Sello.Imprimir();
 
+            //string[] n = { "ana", "pedro", "agus", "jorge", "mariono" };
+
+            //for (int i = 0; i < n.Length; i++)
+            //{
+            //    if (string.Compare())
+            //}
+            Console.WriteLine(string.Compare("a", "z"));
 
             
 

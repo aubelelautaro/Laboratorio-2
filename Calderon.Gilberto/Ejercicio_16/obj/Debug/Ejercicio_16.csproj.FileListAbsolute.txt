@@ -1,7 +1,0 @@
-F:\Calderon.Gilberto\Ejercicio_16\bin\Debug\Ejercicio_16.exe.config
-F:\Calderon.Gilberto\Ejercicio_16\bin\Debug\Ejercicio_16.exe
-F:\Calderon.Gilberto\Ejercicio_16\bin\Debug\Ejercicio_16.pdb
-F:\Calderon.Gilberto\Ejercicio_16\obj\Debug\Ejercicio_16.csprojAssemblyReference.cache
-F:\Calderon.Gilberto\Ejercicio_16\obj\Debug\Ejercicio_16.csproj.CoreCompileInputs.cache
-F:\Calderon.Gilberto\Ejercicio_16\obj\Debug\Ejercicio_16.exe
-F:\Calderon.Gilberto\Ejercicio_16\obj\Debug\Ejercicio_16.pdb

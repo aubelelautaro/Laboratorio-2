@@ -50,15 +50,7 @@ namespace Clase_06.Entidades
 
         public static implicit operator Paleta(int cantidad)
         {
-            if(cantidad > 0)
-            {
-                Paleta obj = new Paleta(cantidad);
-                return obj;
-            }
-            else
-            {
-                return null;
-            }
+            return cantidad > 0 ? new Paleta(cantidad) : null; // ahorra lineas de codigo
         }
 
         private string Mostrar()

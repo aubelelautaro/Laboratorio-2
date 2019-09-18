@@ -40,7 +40,6 @@ namespace Clase_09
                 Console.WriteLine("Capitulo {0}: {1} {2}", miLibro[i].Numero, miLibro[i].Titulo, miLibro[i].Paginas);
             }
 
-
             Console.ReadLine();
 
         }
