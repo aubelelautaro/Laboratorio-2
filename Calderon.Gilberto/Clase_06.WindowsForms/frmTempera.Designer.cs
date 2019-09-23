@@ -64,6 +64,7 @@
             this.cboColor.Name = "cboColor";
             this.cboColor.Size = new System.Drawing.Size(121, 21);
             this.cboColor.TabIndex = 2;
+            this.cboColor.SelectedIndexChanged += new System.EventHandler(this.CboColor_SelectedIndexChanged);
             // 
             // txtCantidad
             // 
@@ -123,7 +124,6 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmTempera";
             this.Text = "frmTempera";
-          
             this.ResumeLayout(false);
             this.PerformLayout();
 

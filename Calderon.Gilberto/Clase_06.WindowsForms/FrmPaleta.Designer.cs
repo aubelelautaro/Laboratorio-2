@@ -1,6 +1,6 @@
 ﻿namespace Clase_06.WindowsForms
 {
-    partial class Form1
+    partial class FrmPaleta
     {
         /// <summary>
         /// Variable del diseñador necesaria.

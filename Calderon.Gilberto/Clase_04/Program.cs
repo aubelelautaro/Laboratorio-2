@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 #endregion
 
 #region MisClases
@@ -23,6 +24,7 @@ namespace Clase_04
         {
             Cosa cosaUno = new Cosa();
             Cosa c = new Cosa();
+            ArrayList sg = new ArrayList();            
 
             //cosaUno.EstablecerValor("HOLA");
             //cosaUno.EstablecerValor(DateTime.Now);

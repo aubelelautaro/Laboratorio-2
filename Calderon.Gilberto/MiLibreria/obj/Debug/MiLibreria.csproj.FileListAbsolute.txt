@@ -8,3 +8,9 @@ E:\Laboratorio-2\Calderon.Gilberto\MiLibreria\bin\Debug\MiLibreria.pdb
 E:\Laboratorio-2\Calderon.Gilberto\MiLibreria\obj\Debug\MiLibreria.csproj.CoreCompileInputs.cache
 E:\Laboratorio-2\Calderon.Gilberto\MiLibreria\obj\Debug\MiLibreria.dll
 E:\Laboratorio-2\Calderon.Gilberto\MiLibreria\obj\Debug\MiLibreria.pdb
+F:\Calderon.Gilberto\MiLibreria\bin\Debug\MiLibreria.dll
+F:\Calderon.Gilberto\MiLibreria\bin\Debug\MiLibreria.pdb
+F:\Calderon.Gilberto\MiLibreria\obj\Debug\MiLibreria.csprojAssemblyReference.cache
+F:\Calderon.Gilberto\MiLibreria\obj\Debug\MiLibreria.csproj.CoreCompileInputs.cache
+F:\Calderon.Gilberto\MiLibreria\obj\Debug\MiLibreria.dll
+F:\Calderon.Gilberto\MiLibreria\obj\Debug\MiLibreria.pdb

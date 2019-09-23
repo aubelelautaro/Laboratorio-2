@@ -34,3 +34,15 @@ E:\Calderon.Gilberto\Clase_02\bin\Debug\MiLibreria.dll
 E:\Calderon.Gilberto\Clase_02\bin\Debug\Clase_02.Entidades.pdb
 E:\Calderon.Gilberto\Clase_02\bin\Debug\MiLibreria.pdb
 E:\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.csproj.CopyComplete
+F:\Calderon.Gilberto\Clase_02\bin\Debug\Clase_02.exe.config
+F:\Calderon.Gilberto\Clase_02\bin\Debug\Clase_02.exe
+F:\Calderon.Gilberto\Clase_02\bin\Debug\Clase_02.pdb
+F:\Calderon.Gilberto\Clase_02\bin\Debug\Clase_02.Entidades.dll
+F:\Calderon.Gilberto\Clase_02\bin\Debug\MiLibreria.dll
+F:\Calderon.Gilberto\Clase_02\bin\Debug\Clase_02.Entidades.pdb
+F:\Calderon.Gilberto\Clase_02\bin\Debug\MiLibreria.pdb
+F:\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.csprojAssemblyReference.cache
+F:\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.csproj.CoreCompileInputs.cache
+F:\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.csproj.CopyComplete
+F:\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.exe
+F:\Calderon.Gilberto\Clase_02\obj\Debug\Clase_02.pdb

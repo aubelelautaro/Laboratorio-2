@@ -12,11 +12,11 @@ using Clase_06.Entidades;
 
 namespace Clase_06.WindowsForms
 {
-    public partial class Form1 : Form
+    public partial class FrmPaleta : Form
     {
         Paleta miPaleta;
 
-        public Form1()
+        public FrmPaleta()
         {
             InitializeComponent();
 

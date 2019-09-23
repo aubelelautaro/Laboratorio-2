@@ -72,5 +72,9 @@ namespace Clase_06.WindowsForms
             this.Close();  
         }
 
+        private void CboColor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
