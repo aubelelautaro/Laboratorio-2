@@ -92,6 +92,11 @@ namespace Entidades
         #endregion
 
         #region metodos
+        public override string ToString()
+        {
+            return Alumno.Mostrar(this);
+        }
+
         public static string Mostrar(Alumno a)
         {
             return !Object.Equals(a, null) ? $"nombre: {a.nombre}, apellido: {a.apellido}, legajo: {a.legajo}, Examen: {a.examen}" : "No existe el alumno";
@@ -101,13 +106,11 @@ namespace Entidades
         {
             int retorno = 0;
 
-            // 1 si se cumple el criterio
-
             if (a.legajo > b.legajo)
             {
                 retorno = 1;
             }
-            else if (a.legajo < b.legajo)
+            else 
             {
                 retorno = -1;
             }

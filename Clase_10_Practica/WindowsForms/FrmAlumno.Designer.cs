@@ -70,7 +70,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(37, 256);
+            this.label4.Location = new System.Drawing.Point(37, 262);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(89, 13);
             this.label4.TabIndex = 3;
@@ -103,14 +103,14 @@
             // cmbTipoDeExamen
             // 
             this.cmbTipoDeExamen.FormattingEnabled = true;
-            this.cmbTipoDeExamen.Location = new System.Drawing.Point(40, 293);
+            this.cmbTipoDeExamen.Location = new System.Drawing.Point(40, 292);
             this.cmbTipoDeExamen.Name = "cmbTipoDeExamen";
             this.cmbTipoDeExamen.Size = new System.Drawing.Size(274, 21);
             this.cmbTipoDeExamen.TabIndex = 8;
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(40, 370);
+            this.btnAceptar.Location = new System.Drawing.Point(40, 415);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 9;
@@ -120,7 +120,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(239, 370);
+            this.btnCancelar.Location = new System.Drawing.Point(239, 415);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 10;
@@ -151,16 +151,15 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.TextBox txtApellido;
-        private System.Windows.Forms.TextBox txtLegajo;
-        private System.Windows.Forms.ComboBox cmbTipoDeExamen;
-        private System.Windows.Forms.Button btnAceptar;
-        private System.Windows.Forms.Button btnCancelar;
+        protected System.Windows.Forms.Label label2;
+        protected System.Windows.Forms.TextBox txtLegajo;
+        protected System.Windows.Forms.ComboBox cmbTipoDeExamen;
+        protected System.Windows.Forms.Button btnAceptar;
+        protected System.Windows.Forms.Button btnCancelar;
+        protected System.Windows.Forms.Label label1;
+        protected System.Windows.Forms.Label label3;
+        protected System.Windows.Forms.Label label4;
+        protected System.Windows.Forms.TextBox txtNombre;
+        protected System.Windows.Forms.TextBox txtApellido;
     }
 }

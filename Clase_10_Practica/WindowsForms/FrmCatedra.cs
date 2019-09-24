@@ -18,11 +18,14 @@ namespace WindowsForms
         public FrmCatedra()
         {
             InitializeComponent();
+            this.catedra = new Catedra();
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.cmbOrdenar.DataSource = Enum.GetValues(typeof(Catedra.ETipoOrdenamiento));
+            foreach(Catedra.ETipoOrdenamiento value in Enum.GetValues(typeof(Catedra.ETipoOrdenamiento)))
+            {
+                this.cmbOrdenar.Items.Add(value);
+            }
             this.cmbOrdenar.SelectedIndex = 0;
             this.cmbOrdenar.DropDownStyle = ComboBoxStyle.DropDownList;
-            this.catedra = new Catedra();
             this.btnCalificar.Enabled = false;
             this.DialogResult = DialogResult.Yes;
             
@@ -38,9 +41,10 @@ namespace WindowsForms
 
                 if(this.catedra + frm.Alumno)
                 {
-                    this.lstAlumnos.Items.Add(Alumno.Mostrar(frm.Alumno));
+                    //this.lstAlumnos.Items.Add(Alumno.Mostrar(frm.Alumno));
+                    this.ActualizarListadoAlumnos();
                     this.btnCalificar.Enabled = true;
-                    this.DialogResult = DialogResult.Yes;
+                    
                 }
                 else
                 {
@@ -62,18 +66,25 @@ namespace WindowsForms
         private void BtnCalificar_Click(object sender, EventArgs e)
         {
             int indice = this.lstAlumnos.SelectedIndex;
+           
 
-            if(indice >= 0)
+            if (indice >= 0)
             {
-                FrmAlumnoCalificado frm = new FrmAlumnoCalificado(this.catedra.Alumnos[indice]);
+                Alumno alumno = this.catedra.Alumnos[indice];
+                FrmAlumnoCalificado frm = new FrmAlumnoCalificado(alumno);
                 frm.ShowDialog();
 
                 if (frm.DialogResult == DialogResult.OK)
                 {
-                    if(frm.AlumnoCalificado.Nota > 5)
+                    if (frm.AlumnoCalificado.Nota > 5)
                     {
-                        this.lstAlumnos.Items.RemoveAt(indice);
-                        this.lstAlumnosCalificados.Items.Add(AlumnoCalificado.Mostrar(frm.AlumnoCalificado));
+                        if (this.catedra - this.catedra.Alumnos[indice])
+                        {
+                            this.ActualizarListadoAlumnos();
+                            this.lstAlumnosCalificados.Items.Add(alumno.ToString());
+                        }
+                        //this.lstAlumnos.Items.RemoveAt(indice);
+                        //this.lstAlumnosCalificados.Items.Add(AlumnoCalificado.Mostrar(frm.AlumnoCalificado));
                     }
                 }
             }
@@ -81,8 +92,7 @@ namespace WindowsForms
 
         private void CmbOrdenar_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(this.DialogResult == DialogResult.Yes)
-            {
+           
                 switch (this.cmbOrdenar.SelectedIndex)
                 {
                     case 0:
@@ -100,10 +110,39 @@ namespace WindowsForms
                     case 3:
                         this.catedra.Alumnos.Sort(Alumno.OrdenarPorApellidoDesc);
                         break;
+
+                    default:
+                        break;
                 }
 
                 this.ActualizarListadoAlumnos();
-            }
+            
         }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            int indice = this.lstAlumnos.SelectedIndex;
+
+            if (indice >= 0)
+            {
+                FrmAlumno frm = new FrmAlumno(this.catedra.Alumnos[indice]);
+                frm.ShowDialog();
+                
+                if(frm.DialogResult == DialogResult.OK)
+                {
+                    if (this.catedra - this.catedra.Alumnos[indice])
+                    {
+                        if(this.catedra + frm.Alumno)
+                        {
+                            this.ActualizarListadoAlumnos();
+                            MessageBox.Show("Se ha hecho la modificacion correctamente");
+                        }
+                    }         
+                }
+            }
+         }
+           
+            
     }
+    
 }

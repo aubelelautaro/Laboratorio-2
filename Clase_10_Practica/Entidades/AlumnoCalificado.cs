@@ -34,6 +34,10 @@ namespace Entidades
                 return Alumno.Mostrar(this) + " Nota: " + this.nota;
             }
 
-        }
+            public override string ToString()
+            {
+                return this.Mostrar();
+            }
+    }
     
 }

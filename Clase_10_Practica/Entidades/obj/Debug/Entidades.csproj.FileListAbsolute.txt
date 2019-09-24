@@ -4,9 +4,15 @@ C:\Users\Home\Desktop\Clase_10_Practica\Entidades\obj\Debug\Entidades.csprojAsse
 C:\Users\Home\Desktop\Clase_10_Practica\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Home\Desktop\Clase_10_Practica\Entidades\obj\Debug\Entidades.dll
 C:\Users\Home\Desktop\Clase_10_Practica\Entidades\obj\Debug\Entidades.pdb
+E:\Clase_10_Practica\Entidades\bin\Debug\Entidades.dll
+E:\Clase_10_Practica\Entidades\bin\Debug\Entidades.pdb
+E:\Clase_10_Practica\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+E:\Clase_10_Practica\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\Clase_10_Practica\Entidades\obj\Debug\Entidades.dll
+E:\Clase_10_Practica\Entidades\obj\Debug\Entidades.pdb
 F:\Clase_10_Practica\Entidades\bin\Debug\Entidades.dll
 F:\Clase_10_Practica\Entidades\bin\Debug\Entidades.pdb
-F:\Clase_10_Practica\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
 F:\Clase_10_Practica\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 F:\Clase_10_Practica\Entidades\obj\Debug\Entidades.dll
 F:\Clase_10_Practica\Entidades\obj\Debug\Entidades.pdb
+F:\Clase_10_Practica\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache

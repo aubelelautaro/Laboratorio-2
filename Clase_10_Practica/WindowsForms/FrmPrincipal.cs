@@ -32,9 +32,6 @@ namespace WindowsForms
             frm.Show();
         }
 
-        private void CrearToolStripMenuItem_Click(object sender, EventArgs e)
-        {
 
-        }
     }
 }

@@ -23,15 +23,25 @@ namespace WindowsForms
             }
         }
 
+
         public FrmAlumno()
         {
             InitializeComponent();
             this.cmbTipoDeExamen.DataSource = Enum.GetValues(typeof(Alumno.ETipoExamen));
             this.cmbTipoDeExamen.SelectedItem = Alumno.ETipoExamen.Final;
             this.cmbTipoDeExamen.DropDownStyle = ComboBoxStyle.DropDownList;
+           
         }
 
-        private void BtnAceptar_Click(object sender, EventArgs e)
+        public FrmAlumno(Alumno a):this()
+        {
+            this.txtLegajo.Text = a.Legajo.ToString();
+            this.txtNombre.Text = a.Nombre;
+            this.txtApellido.Text = a.Apellido;
+            this.txtLegajo.Enabled = false;
+        }
+
+        protected virtual void BtnAceptar_Click(object sender, EventArgs e)
         {
             int legajo;
             if(!string.IsNullOrEmpty(this.txtNombre.Text) && !string.IsNullOrEmpty(this.txtApellido.Text) 
@@ -49,7 +59,7 @@ namespace WindowsForms
 
         }
 
-        private void BtnCancelar_Click(object sender, EventArgs e)
+        protected virtual void BtnCancelar_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;
             this.Close();

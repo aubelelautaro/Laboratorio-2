@@ -15,6 +15,24 @@ namespace Entidades
             this.alumnos = new List<Alumno>();
         }
 
+        public override string ToString()
+        {
+            string cadena = "No existe la catedra";
+
+            if(!Object.ReferenceEquals(this, null))
+            {
+                cadena = string.Empty;
+
+                foreach (Alumno a in this.alumnos)
+                {
+                    cadena += a.ToString();
+                    cadena += "\n";
+                }
+            }
+
+            return cadena;
+        }
+
         public List<Alumno> Alumnos
         {
             get
@@ -30,6 +48,8 @@ namespace Entidades
             ApellidoAscendente,
             ApellidoDescendente
         }
+
+        #region Sobrecarga De Operadores
 
         public static bool operator ==(Catedra c, Alumno a)
         {
@@ -90,5 +110,7 @@ namespace Entidades
             }
             return retorno;
         }
+
+        #endregion
     }
 }
