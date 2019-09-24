@@ -55,15 +55,55 @@ namespace WindowsForms
             this.lstAlumnos.Items.Clear();
             foreach(Alumno a in this.catedra.Alumnos)
             {
-                this.lstAlumnos.Items.Add(a);
+                this.lstAlumnos.Items.Add(Alumno.Mostrar(a));
             }
         }
 
         private void BtnCalificar_Click(object sender, EventArgs e)
         {
             int indice = this.lstAlumnos.SelectedIndex;
-            FrmAlumnoCalificado frm = new FrmAlumnoCalificado(this.catedra.Alumnos[indice]);
-            frm.ShowDialog();
+
+            if(indice >= 0)
+            {
+                FrmAlumnoCalificado frm = new FrmAlumnoCalificado(this.catedra.Alumnos[indice]);
+                frm.ShowDialog();
+
+                if (frm.DialogResult == DialogResult.OK)
+                {
+                    if(frm.AlumnoCalificado.Nota > 5)
+                    {
+                        this.lstAlumnos.Items.RemoveAt(indice);
+                        this.lstAlumnosCalificados.Items.Add(AlumnoCalificado.Mostrar(frm.AlumnoCalificado));
+                    }
+                }
+            }
+        }
+
+        private void CmbOrdenar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(this.DialogResult == DialogResult.Yes)
+            {
+                switch (this.cmbOrdenar.SelectedIndex)
+                {
+                    case 0:
+                        this.catedra.Alumnos.Sort(Alumno.OrdenarPorLegajoAsc);
+                        break;
+
+                    case 1:
+                        this.catedra.Alumnos.Sort(Alumno.OrdenarPorLegajoDesc);
+                        break;
+
+                    case 2:
+                        this.catedra.Alumnos.Sort(Alumno.OrdenarPorApellidoAsc);
+                        break;
+
+                    case 3:
+                        this.catedra.Alumnos.Sort(Alumno.OrdenarPorApellidoDesc);
+                        break;
+                }
+
+                this.ActualizarListadoAlumnos();
+            }
         }
     }
 }
