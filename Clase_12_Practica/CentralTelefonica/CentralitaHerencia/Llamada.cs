@@ -65,7 +65,7 @@ namespace CentralitaHerencia
             
             if (!Object.ReferenceEquals(this, null))
             {
-                sb.AppendLine($"Duracion: {this._duracion}, Nro de Origen: {this._nroOrigen}, Nro de Destino: {this._nroDestino}");
+                sb.Append($"Duracion: {this._duracion}, Nro de Origen: {this._nroOrigen}, Nro de Destino: {this._nroDestino},");
             }
             else
             {
@@ -101,7 +101,7 @@ namespace CentralitaHerencia
 
             if(!Object.ReferenceEquals(uno,null) && !Object.ReferenceEquals(dos, null))
             {
-                if(uno is Llamada && dos is Llamada)
+                if(uno.Equals(dos))
                 {
                     if (string.Compare(uno._nroOrigen, dos._nroOrigen) == 0
                          && string.Compare(uno._nroDestino, dos._nroDestino) == 0)

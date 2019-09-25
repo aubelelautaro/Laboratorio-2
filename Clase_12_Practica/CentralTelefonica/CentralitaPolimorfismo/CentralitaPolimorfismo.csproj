@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5790FBB4-ADF4-4301-A622-DE75376868D1}</ProjectGuid>
+    <ProjectGuid>{435EFAFA-09EA-4116-B248-FC4A8627C3C4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>CentralitaPolimorfismo</RootNamespace>
     <AssemblyName>CentralitaPolimorfismo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CentralitaHerencia\CentralitaHerencia.csproj">
+      <Project>{6429934c-b916-4fc9-9b1d-394d575412b0}</Project>
+      <Name>CentralitaHerencia</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

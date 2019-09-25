@@ -22,7 +22,7 @@ namespace CentralitaHerencia
         public Provincial(string origen, Franja miFranja, float duracion, string destino)
             :base(origen, destino, duracion)
         {
-
+            this._franjaHoraria = miFranja;
         }
         #endregion
 

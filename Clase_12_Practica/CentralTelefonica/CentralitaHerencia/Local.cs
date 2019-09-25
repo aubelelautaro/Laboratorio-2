@@ -40,7 +40,7 @@ namespace CentralitaHerencia
         {
 
             StringBuilder sb = new StringBuilder();
-            sb.Append(" " + this.CostoLlamada.ToString());
+            sb.Append(" Costo: " + this.CostoLlamada.ToString());
             return base.Mostrar() + sb.ToString();
         }
 
