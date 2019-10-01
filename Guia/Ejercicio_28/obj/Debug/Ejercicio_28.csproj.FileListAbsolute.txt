@@ -1,0 +1,10 @@
+F:\Guia\Ejercicio_28\bin\Debug\Ejercicio_28.exe.config
+F:\Guia\Ejercicio_28\bin\Debug\Ejercicio_28.exe
+F:\Guia\Ejercicio_28\bin\Debug\Ejercicio_28.pdb
+F:\Guia\Ejercicio_28\obj\Debug\Ejercicio_28.csprojAssemblyReference.cache
+F:\Guia\Ejercicio_28\obj\Debug\Ejercicio_28.btnCalcular.resources
+F:\Guia\Ejercicio_28\obj\Debug\Ejercicio_28.Properties.Resources.resources
+F:\Guia\Ejercicio_28\obj\Debug\Ejercicio_28.csproj.GenerateResource.cache
+F:\Guia\Ejercicio_28\obj\Debug\Ejercicio_28.csproj.CoreCompileInputs.cache
+F:\Guia\Ejercicio_28\obj\Debug\Ejercicio_28.exe
+F:\Guia\Ejercicio_28\obj\Debug\Ejercicio_28.pdb

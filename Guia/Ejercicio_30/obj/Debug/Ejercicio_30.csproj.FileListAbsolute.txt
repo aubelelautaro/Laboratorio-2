@@ -1,0 +1,10 @@
+F:\Guia\Ejercicio_30\bin\Debug\Ejercicio_30.exe.config
+F:\Guia\Ejercicio_30\bin\Debug\Ejercicio_30.exe
+F:\Guia\Ejercicio_30\bin\Debug\Ejercicio_30.pdb
+F:\Guia\Ejercicio_30\bin\Debug\Ejercicio_30.Entidades.dll
+F:\Guia\Ejercicio_30\bin\Debug\Ejercicio_30.Entidades.pdb
+F:\Guia\Ejercicio_30\obj\Debug\Ejercicio_30.csprojAssemblyReference.cache
+F:\Guia\Ejercicio_30\obj\Debug\Ejercicio_30.csproj.CoreCompileInputs.cache
+F:\Guia\Ejercicio_30\obj\Debug\Ejercicio_30.csproj.CopyComplete
+F:\Guia\Ejercicio_30\obj\Debug\Ejercicio_30.exe
+F:\Guia\Ejercicio_30\obj\Debug\Ejercicio_30.pdb

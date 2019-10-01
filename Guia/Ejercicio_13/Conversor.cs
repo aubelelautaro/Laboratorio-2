@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_13
 {
-    class Conversor
+    public class Conversor
     {
         public static string DecimalBinario(double numero)
         {

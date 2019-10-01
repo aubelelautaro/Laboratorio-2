@@ -1,0 +1,6 @@
+F:\Guia\Ejercicio_25.Entidades\bin\Debug\Ejercicio_25.Entidades.dll
+F:\Guia\Ejercicio_25.Entidades\bin\Debug\Ejercicio_25.Entidades.pdb
+F:\Guia\Ejercicio_25.Entidades\obj\Debug\Ejercicio_25.Entidades.csprojAssemblyReference.cache
+F:\Guia\Ejercicio_25.Entidades\obj\Debug\Ejercicio_25.Entidades.csproj.CoreCompileInputs.cache
+F:\Guia\Ejercicio_25.Entidades\obj\Debug\Ejercicio_25.Entidades.dll
+F:\Guia\Ejercicio_25.Entidades\obj\Debug\Ejercicio_25.Entidades.pdb

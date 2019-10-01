@@ -1,0 +1,13 @@
+F:\Guia\Ejercicio_25\bin\Debug\Ejercicio_25.exe.config
+F:\Guia\Ejercicio_25\bin\Debug\Ejercicio_25.exe
+F:\Guia\Ejercicio_25\bin\Debug\Ejercicio_25.pdb
+F:\Guia\Ejercicio_25\bin\Debug\Ejercicio_25.Entidades.dll
+F:\Guia\Ejercicio_25\bin\Debug\Ejercicio_25.Entidades.pdb
+F:\Guia\Ejercicio_25\obj\Debug\Ejercicio_25.csprojAssemblyReference.cache
+F:\Guia\Ejercicio_25\obj\Debug\Ejercicio_25.FrmConversor.resources
+F:\Guia\Ejercicio_25\obj\Debug\Ejercicio_25.Properties.Resources.resources
+F:\Guia\Ejercicio_25\obj\Debug\Ejercicio_25.csproj.GenerateResource.cache
+F:\Guia\Ejercicio_25\obj\Debug\Ejercicio_25.csproj.CoreCompileInputs.cache
+F:\Guia\Ejercicio_25\obj\Debug\Ejercicio_25.csproj.CopyComplete
+F:\Guia\Ejercicio_25\obj\Debug\Ejercicio_25.exe
+F:\Guia\Ejercicio_25\obj\Debug\Ejercicio_25.pdb
