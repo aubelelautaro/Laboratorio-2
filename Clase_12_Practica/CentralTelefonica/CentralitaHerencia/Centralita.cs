@@ -13,6 +13,53 @@ namespace CentralitaHerencia
         protected string _razonSocial;
         #endregion
 
+        public float GananciaPorLocal
+        {
+            get
+            {
+                float ganacia = 0;
+                foreach (Llamada value in this._listaDeLlamadas)
+                {
+                    if (value is Local)
+                    {
+                        ganacia += value.CostoLlamada;
+                    }
+                }
+                return ganacia;
+            }
+        }
+
+        public float GananciaProvincial
+        {
+            get
+            {
+                float ganancia = 0;
+                foreach (Llamada value in this._listaDeLlamadas)
+                {
+                    if (value is Provincial)
+                    {
+                        ganancia += value.CostoLlamada;
+                    }
+                }
+                return ganancia;
+            }
+        }
+
+        public float GananciaTotal
+        {
+            get
+            {
+                return this.GananciaPorLocal + this.GananciaProvincial;
+            }
+        }
+
+        public List<Llamada> Llamadas
+        {
+            get
+            {
+                return this._listaDeLlamadas;
+            }
+        }
 
         #region Constructores
         public Centralita():this("Empresa Desconocida")
@@ -30,20 +77,15 @@ namespace CentralitaHerencia
         #region Sobrecarga de operadores
         public static bool operator ==(Centralita central, Llamada nuevaLlamada)
         {
-            bool retorno = false;
-            if(!Object.ReferenceEquals(central, null) && !Object.ReferenceEquals(nuevaLlamada, null))
+            if(!(central is null) && !(nuevaLlamada is null))
             {
-                foreach(Llamada value in central._listaDeLlamadas)
+                if (central._listaDeLlamadas.Contains(nuevaLlamada))
                 {
-                    if(value == nuevaLlamada)
-                    {
-                        retorno = true;
-                        break;
-                    }
+                    return true;
                 }
             }
 
-            return retorno;
+            return false;
         }
 
         public static bool operator !=(Centralita central, Llamada nuevaLlamada)
@@ -64,8 +106,25 @@ namespace CentralitaHerencia
         #region Metodos
         private void AgregarLlamada(Llamada nuevaLlamada)
         {
-            this._listaDeLlamadas.Add(nuevaLlamada);
+            if(!(nuevaLlamada is null))
+                this._listaDeLlamadas.Add(nuevaLlamada);
             return;
+        }
+
+        public float CalcularGanancia(TipoLlamada tipo)
+        {
+            if (tipo == TipoLlamada.Local)
+            {
+                return this.GananciaPorLocal;
+            }
+            else if(tipo == TipoLlamada.Provincial)
+            {
+                return this.GananciaProvincial;
+            }
+            else
+            {
+                return this.GananciaTotal;
+            }
         }
 
         private string Mostrar()

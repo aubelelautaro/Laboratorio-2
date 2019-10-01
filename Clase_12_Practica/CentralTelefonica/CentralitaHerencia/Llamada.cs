@@ -98,19 +98,14 @@ namespace CentralitaHerencia
         public static bool operator ==(Llamada uno, Llamada dos)
         {
             bool retorno = false;
-
-            if(!Object.ReferenceEquals(uno,null) && !Object.ReferenceEquals(dos, null))
+            if(!(uno is null) && !(dos is null))
             {
-                if(uno.Equals(dos))
+                if (string.Compare(uno.NroDestino, dos.NroDestino) == 0 &&
+                    string.Compare(uno.NroOrigen, dos.NroOrigen)== 0)
                 {
-                    if (string.Compare(uno._nroOrigen, dos._nroOrigen) == 0
-                         && string.Compare(uno._nroDestino, dos._nroDestino) == 0)
-                    {
-                        retorno = true;
-                    }
+                    retorno = true;
                 }
             }
-
             return retorno;
         } 
 
@@ -120,6 +115,27 @@ namespace CentralitaHerencia
         }
         #endregion
 
-        
+        public override bool Equals(object obj)
+        {
+            if(obj is null)
+            {
+                if(this == (Llamada)obj)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            unchecked
+            {
+                return this.NroDestino.GetHashCode() * this.NroOrigen.GetHashCode();
+            }
+        }
+
+
     }
 }

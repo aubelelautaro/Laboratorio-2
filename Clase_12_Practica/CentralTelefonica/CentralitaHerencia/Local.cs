@@ -46,12 +46,18 @@ namespace CentralitaHerencia
 
         public override bool Equals(object obj)
         {
+          
             return obj is Local;
         }
 
         public override string ToString()
         {
             return this.Mostrar();
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
         }
 
         private float CalcularCosto()

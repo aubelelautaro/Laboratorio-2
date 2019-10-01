@@ -72,6 +72,11 @@ namespace CentralitaHerencia
             return obj is Provincial;
         }
 
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
         public override string ToString()
         {
             return !Object.ReferenceEquals(this,null) ? this.Mostrar(): "Llama local inexistente";
