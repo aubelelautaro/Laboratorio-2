@@ -1,0 +1,2 @@
+F:\Guia\Ejercicio_37\obj\Debug\Ejercicio_37.csprojAssemblyReference.cache
+F:\Guia\Ejercicio_37\obj\Debug\Ejercicio_37.csproj.CoreCompileInputs.cache

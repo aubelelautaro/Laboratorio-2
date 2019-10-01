@@ -1,0 +1,7 @@
+F:\Guia\Ejercicio_31\bin\Debug\Ejercicio_31.exe.config
+F:\Guia\Ejercicio_31\bin\Debug\Ejercicio_31.exe
+F:\Guia\Ejercicio_31\bin\Debug\Ejercicio_31.pdb
+F:\Guia\Ejercicio_31\obj\Debug\Ejercicio_31.csprojAssemblyReference.cache
+F:\Guia\Ejercicio_31\obj\Debug\Ejercicio_31.csproj.CoreCompileInputs.cache
+F:\Guia\Ejercicio_31\obj\Debug\Ejercicio_31.exe
+F:\Guia\Ejercicio_31\obj\Debug\Ejercicio_31.pdb
