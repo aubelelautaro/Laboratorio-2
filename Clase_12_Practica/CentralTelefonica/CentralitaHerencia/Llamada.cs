@@ -75,7 +75,7 @@ namespace CentralitaHerencia
             return sb.ToString();
         }
 
-        public int OrdenarPorDuracion(Llamada uno, Llamada dos)
+        public static int OrdenarPorDuracion(Llamada uno, Llamada dos)
         {
             int retorno = 0;
 
@@ -89,6 +89,11 @@ namespace CentralitaHerencia
             }
 
             return retorno;
+        }
+
+        public static int OrdenarPorDuracionDesc(Llamada uno, Llamada dos)
+        {
+            return -1 *OrdenarPorDuracion(uno, dos);
         }
 
         #endregion
@@ -115,26 +120,26 @@ namespace CentralitaHerencia
         }
         #endregion
 
-        public override bool Equals(object obj)
-        {
-            if(obj is null)
-            {
-                if(this == (Llamada)obj)
-                {
-                    return true;
-                }
-            }
+        //public override bool Equals(object obj)
+        //{
+        //    if(!(obj is null) && (obj is Llamada))
+        //    {
+        //        if(this == (Llamada)obj)
+        //        {
+        //            return true;
+        //        }
+        //    }
 
-            return false;
-        }
+        //    return false;
+        //}
 
-        public override int GetHashCode()
-        {
-            unchecked
-            {
-                return this.NroDestino.GetHashCode() * this.NroOrigen.GetHashCode();
-            }
-        }
+        //public override int GetHashCode()
+        //{
+        //    unchecked
+        //    {
+        //        return this.NroDestino.GetHashCode() * this.NroOrigen.GetHashCode();
+        //    }
+        //}
 
 
     }

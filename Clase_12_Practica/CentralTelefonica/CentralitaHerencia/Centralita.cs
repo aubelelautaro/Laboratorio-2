@@ -79,9 +79,10 @@ namespace CentralitaHerencia
         {
             if(!(central is null) && !(nuevaLlamada is null))
             {
-                if (central._listaDeLlamadas.Contains(nuevaLlamada))
+                foreach(Llamada value in central._listaDeLlamadas)
                 {
-                    return true;
+                    if (value == nuevaLlamada)
+                        return true;
                 }
             }
 
@@ -110,6 +111,11 @@ namespace CentralitaHerencia
                 this._listaDeLlamadas.Add(nuevaLlamada);
             return;
         }
+
+        //public void OrdenarLlamadas()
+        //{
+        //    this._listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
+        //}
 
         public float CalcularGanancia(TipoLlamada tipo)
         {
