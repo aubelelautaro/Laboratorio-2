@@ -34,6 +34,7 @@
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.lblPrecioFinal = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.lblPrecioFinalNumero = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCantidad)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,6 +63,7 @@
             this.btnVender.TabIndex = 2;
             this.btnVender.Text = "Vender";
             this.btnVender.UseVisualStyleBackColor = true;
+            this.btnVender.Click += new System.EventHandler(this.BtnVender_Click);
             // 
             // lblDescripcion
             // 
@@ -79,9 +81,9 @@
             this.lblPrecioFinal.AutoSize = true;
             this.lblPrecioFinal.Location = new System.Drawing.Point(200, 122);
             this.lblPrecioFinal.Name = "lblPrecioFinal";
-            this.lblPrecioFinal.Size = new System.Drawing.Size(101, 13);
+            this.lblPrecioFinal.Size = new System.Drawing.Size(68, 13);
             this.lblPrecioFinal.TabIndex = 5;
-            this.lblPrecioFinal.Text = "Precio Final:  $X.XX";
+            this.lblPrecioFinal.Text = "Precio Final: ";
             // 
             // btnCancelar
             // 
@@ -93,11 +95,20 @@
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
+            // lblPrecioFinalNumero
+            // 
+            this.lblPrecioFinalNumero.AutoSize = true;
+            this.lblPrecioFinalNumero.Location = new System.Drawing.Point(275, 122);
+            this.lblPrecioFinalNumero.Name = "lblPrecioFinalNumero";
+            this.lblPrecioFinalNumero.Size = new System.Drawing.Size(0, 13);
+            this.lblPrecioFinalNumero.TabIndex = 7;
+            // 
             // VentasForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(356, 277);
+            this.Controls.Add(this.lblPrecioFinalNumero);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.lblPrecioFinal);
             this.Controls.Add(this.lblDescripcion);
@@ -105,7 +116,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDownCantidad);
             this.Name = "VentasForm";
-            this.Text = "Nueva Venta";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCantidad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -120,5 +130,6 @@
         private System.Windows.Forms.Label lblDescripcion;
         private System.Windows.Forms.Label lblPrecioFinal;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Label lblPrecioFinalNumero;
     }
 }

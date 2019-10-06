@@ -10,3 +10,9 @@ C:\Users\Home\Desktop\modelos de parcial lab_2\ComiqueriaApp\ComiqueriaLogic\obj
 C:\Users\Home\Desktop\modelos de parcial lab_2\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.csproj.CoreCompileInputs.cache
 C:\Users\Home\Desktop\modelos de parcial lab_2\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.dll
 C:\Users\Home\Desktop\modelos de parcial lab_2\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.pdb
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaLogic\bin\Debug\ComiqueriaLogic.dll
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaLogic\bin\Debug\ComiqueriaLogic.pdb
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.csprojAssemblyReference.cache
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.csproj.CoreCompileInputs.cache
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.dll
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.pdb

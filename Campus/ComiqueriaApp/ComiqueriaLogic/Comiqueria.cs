@@ -62,10 +62,11 @@ namespace ComiqueriaLogic
 
         public static Comiqueria operator +(Comiqueria comiqueria, Producto producto)
         {
-            if(comiqueria != producto)
-            {
-                comiqueria.productos.Add(producto);
-            }
+                if(comiqueria != producto)
+                {
+                    comiqueria.productos.Add(producto);
+                }
+            
             return comiqueria;
         }
         #endregion

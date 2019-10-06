@@ -92,6 +92,10 @@ namespace ComiqueriaApp
             
             if (result == DialogResult.OK)
             {
+                for(int i = 0; i < ventasForm.Cantidad; i++)
+                {
+                    this.comiqueria.Vender(ventasForm.Producto);
+                }
                 this.richTextBoxVentas.Text = this.comiqueria.ListarVentas();
             }
         }

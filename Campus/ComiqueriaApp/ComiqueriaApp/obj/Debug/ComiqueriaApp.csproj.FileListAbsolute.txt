@@ -77,3 +77,17 @@ C:\Users\Home\Desktop\modelos de parcial lab_2\ComiqueriaApp\ComiqueriaApp\obj\D
 C:\Users\Home\Desktop\modelos de parcial lab_2\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.CopyComplete
 C:\Users\Home\Desktop\modelos de parcial lab_2\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.exe
 C:\Users\Home\Desktop\modelos de parcial lab_2\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.pdb
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaApp.exe.config
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaApp.exe
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaApp.pdb
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaLogic.dll
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\bin\Debug\ComiqueriaLogic.pdb
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csprojAssemblyReference.cache
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.PrincipalForm.resources
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.Properties.Resources.resources
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.VentasForm.resources
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.GenerateResource.cache
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.CoreCompileInputs.cache
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.CopyComplete
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.exe
+F:\Univ\Materias del 2do cuatrimestre\Programacion-Laboratorio-2\Parciales-Campus\New folder\ComiqueriaApp\ComiqueriaApp\obj\Debug\ComiqueriaApp.pdb
