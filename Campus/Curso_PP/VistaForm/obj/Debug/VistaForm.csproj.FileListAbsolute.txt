@@ -1,0 +1,13 @@
+C:\Users\Home\source\repos\Calderon.Gilberto\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\Home\source\repos\Calderon.Gilberto\VistaForm\bin\Debug\VistaForm.exe
+C:\Users\Home\source\repos\Calderon.Gilberto\VistaForm\bin\Debug\VistaForm.pdb
+C:\Users\Home\source\repos\Calderon.Gilberto\VistaForm\bin\Debug\Entidades.dll
+C:\Users\Home\source\repos\Calderon.Gilberto\VistaForm\bin\Debug\Entidades.pdb
+C:\Users\Home\source\repos\Calderon.Gilberto\VistaForm\obj\Debug\VistaForm.csprojAssemblyReference.cache
+C:\Users\Home\source\repos\Calderon.Gilberto\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
+C:\Users\Home\source\repos\Calderon.Gilberto\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.cache
+C:\Users\Home\source\repos\Calderon.Gilberto\VistaForm\obj\Debug\VistaForm.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\Calderon.Gilberto\VistaForm\obj\Debug\VistaForm.csproj.CopyComplete
+C:\Users\Home\source\repos\Calderon.Gilberto\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\Home\source\repos\Calderon.Gilberto\VistaForm\obj\Debug\VistaForm.pdb
+C:\Users\Home\source\repos\Calderon.Gilberto\VistaForm\obj\Debug\VistaForm.FrmVista.resources
