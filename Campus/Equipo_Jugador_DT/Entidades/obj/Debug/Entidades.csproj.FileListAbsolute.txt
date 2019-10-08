@@ -1,0 +1,12 @@
+C:\Users\Home\source\repos\Calderon.Gilberto\Entidades\bin\Debug\Entidades.dll
+C:\Users\Home\source\repos\Calderon.Gilberto\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Home\source\repos\Calderon.Gilberto\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Home\source\repos\Calderon.Gilberto\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\Calderon.Gilberto\Entidades\obj\Debug\Entidades.dll
+C:\Users\Home\source\repos\Calderon.Gilberto\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Home\source\repos\Calderon.Gilberto.2A\Entidades\bin\Debug\Entidades.dll
+C:\Users\Home\source\repos\Calderon.Gilberto.2A\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Home\source\repos\Calderon.Gilberto.2A\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Home\source\repos\Calderon.Gilberto.2A\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\Calderon.Gilberto.2A\Entidades\obj\Debug\Entidades.dll
+C:\Users\Home\source\repos\Calderon.Gilberto.2A\Entidades\obj\Debug\Entidades.pdb
