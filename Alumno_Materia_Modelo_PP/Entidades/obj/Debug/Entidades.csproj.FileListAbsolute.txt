@@ -1,0 +1,5 @@
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Entidades\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Entidades\obj\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Entidades\obj\Debug\Entidades.pdb

@@ -1,0 +1,10 @@
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Test\bin\Debug\Test.exe.config
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Test\bin\Debug\Test.exe
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Test\bin\Debug\Test.pdb
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Test\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Test\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Test\obj\Debug\Test.exe
+C:\Users\alumno\Desktop\Alumno_Materia_Modelo_PP\Test\obj\Debug\Test.pdb
