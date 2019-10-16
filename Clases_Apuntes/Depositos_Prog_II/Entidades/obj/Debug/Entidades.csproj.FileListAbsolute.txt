@@ -1,0 +1,12 @@
+D:\VisualStudio\Depositos_Autos_Prog_II\Entidades\bin\Debug\Entidades.dll
+D:\VisualStudio\Depositos_Autos_Prog_II\Entidades\bin\Debug\Entidades.pdb
+D:\VisualStudio\Depositos_Autos_Prog_II\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\VisualStudio\Depositos_Autos_Prog_II\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Depositos_Autos_Prog_II\Entidades\obj\Debug\Entidades.dll
+D:\VisualStudio\Depositos_Autos_Prog_II\Entidades\obj\Debug\Entidades.pdb
+D:\VisualStudio\Depositos_Prog_II\Entidades\bin\Debug\Entidades.dll
+D:\VisualStudio\Depositos_Prog_II\Entidades\bin\Debug\Entidades.pdb
+D:\VisualStudio\Depositos_Prog_II\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\VisualStudio\Depositos_Prog_II\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Depositos_Prog_II\Entidades\obj\Debug\Entidades.dll
+D:\VisualStudio\Depositos_Prog_II\Entidades\obj\Debug\Entidades.pdb
