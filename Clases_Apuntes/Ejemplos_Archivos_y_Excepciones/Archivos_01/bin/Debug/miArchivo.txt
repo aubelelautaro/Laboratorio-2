@@ -1,2 +1,0 @@
-   en Archivos.Program.MetodoUno() en D:\VisualStudio\Clases\Archivos_01\Program.cs:línea 93
-   en Archivos.Program.Main(String[] args) en D:\VisualStudio\Clases\Archivos_01\Program.cs:línea 2215/10/2019 11:38:20

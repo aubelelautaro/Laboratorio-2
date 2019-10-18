@@ -22,9 +22,14 @@ namespace Ejercicio_48
         #region Metodos
         public static Contabilidad<T,U> operator +(Contabilidad<T, U> c, T ingreso)
         {
-         
-
+            c.ingresos.Add(ingreso);
                 return c;
+        }
+
+        public static Contabilidad<T,U> operator +(Contabilidad<T,U> c , U egreso)
+        {
+            c.egresos.Add(egreso);
+            return c;
         }
         #endregion
     }

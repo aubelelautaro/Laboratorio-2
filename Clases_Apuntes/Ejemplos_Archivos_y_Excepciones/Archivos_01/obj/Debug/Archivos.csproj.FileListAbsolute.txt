@@ -1,7 +1,0 @@
-D:\VisualStudio\Clases\Archivos\bin\Debug\Archivos.exe.config
-D:\VisualStudio\Clases\Archivos\bin\Debug\Archivos.exe
-D:\VisualStudio\Clases\Archivos\bin\Debug\Archivos.pdb
-D:\VisualStudio\Clases\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
-D:\VisualStudio\Clases\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
-D:\VisualStudio\Clases\Archivos\obj\Debug\Archivos.exe
-D:\VisualStudio\Clases\Archivos\obj\Debug\Archivos.pdb
