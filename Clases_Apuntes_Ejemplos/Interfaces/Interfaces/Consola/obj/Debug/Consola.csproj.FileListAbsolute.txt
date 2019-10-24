@@ -1,0 +1,10 @@
+F:\Interfaces\Interfaces\Consola\bin\Debug\Consola.exe.config
+F:\Interfaces\Interfaces\Consola\bin\Debug\Consola.exe
+F:\Interfaces\Interfaces\Consola\bin\Debug\Consola.pdb
+F:\Interfaces\Interfaces\Consola\bin\Debug\Entidades.dll
+F:\Interfaces\Interfaces\Consola\bin\Debug\Entidades.pdb
+F:\Interfaces\Interfaces\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+F:\Interfaces\Interfaces\Consola\obj\Debug\Consola.csproj.CoreCompileInputs.cache
+F:\Interfaces\Interfaces\Consola\obj\Debug\Consola.csproj.CopyComplete
+F:\Interfaces\Interfaces\Consola\obj\Debug\Consola.exe
+F:\Interfaces\Interfaces\Consola\obj\Debug\Consola.pdb

@@ -1,0 +1,12 @@
+D:\VisualStudio\Interfaces\Entidades\bin\Debug\Entidades.dll
+D:\VisualStudio\Interfaces\Entidades\bin\Debug\Entidades.pdb
+D:\VisualStudio\Interfaces\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\VisualStudio\Interfaces\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Interfaces\Entidades\obj\Debug\Entidades.dll
+D:\VisualStudio\Interfaces\Entidades\obj\Debug\Entidades.pdb
+F:\Interfaces\Interfaces\Entidades\bin\Debug\Entidades.dll
+F:\Interfaces\Interfaces\Entidades\bin\Debug\Entidades.pdb
+F:\Interfaces\Interfaces\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+F:\Interfaces\Interfaces\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+F:\Interfaces\Interfaces\Entidades\obj\Debug\Entidades.dll
+F:\Interfaces\Interfaces\Entidades\obj\Debug\Entidades.pdb
