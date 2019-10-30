@@ -1,0 +1,17 @@
+D:\VisualStudio\Clase_29_10_19\Entidades\bin\Debug\Entidades.dll
+D:\VisualStudio\Clase_29_10_19\Entidades\bin\Debug\Entidades.pdb
+D:\VisualStudio\Clase_29_10_19\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\VisualStudio\Clase_29_10_19\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Clase_29_10_19\Entidades\obj\Debug\Entidades.dll
+D:\VisualStudio\Clase_29_10_19\Entidades\obj\Debug\Entidades.pdb
+D:\VisualStudio\Serializacion\Entidades\bin\Debug\Entidades.dll
+D:\VisualStudio\Serializacion\Entidades\bin\Debug\Entidades.pdb
+D:\VisualStudio\Serializacion\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\VisualStudio\Serializacion\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Serializacion\Entidades\obj\Debug\Entidades.dll
+D:\VisualStudio\Serializacion\Entidades\obj\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\Serializacion\Entidades\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Serializacion\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\Serializacion\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Serializacion\Entidades\obj\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Serializacion\Entidades\obj\Debug\Entidades.pdb
